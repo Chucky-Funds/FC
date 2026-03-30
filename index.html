@@ -151,6 +151,63 @@
         0% { top: 0; }
         100% { top: 100%; }
     }
+    /* Ensure mobile menu shows correctly */
+#mobile-drawer.open {
+    transform: translateX(0);
+}
+
+/* Prevent scrolling when menu is open */
+body.menu-open {
+    overflow: hidden !important;
+}
+
+/* Menu Button "X" Animation */
+#mobile-menu-btn.open #bar-1 {
+    transform: translateY(7px) rotate(45deg);
+}
+#mobile-menu-btn.open #bar-2 {
+    opacity: 0;
+    transform: translateX(20px);
+}
+#mobile-menu-btn.open #bar-3 {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Fix for small screens like iPhone SE (320px) */
+@media (max-width: 340px) {
+    .mobile-nav-link {
+        font-size: 1.5rem; /* Scale down text slightly */
+    }
+    #nav-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+/* Add this to your <style> tag */
+/* Update this specific part in your <style> tag */
+#mobile-drawer {
+    /* Ensure it starts off-screen to the right */
+    transform: translateX(100%);
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: black;
+}
+
+#mobile-drawer.open {
+    /* Force it to show when .open is added */
+    transform: translateX(0) !important;
+}
+
+body.menu-open {
+    overflow: hidden !important;
+}
+
+/* Sync the Menu Button "X" animation */
+#mobile-menu-btn.open span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
+#mobile-menu-btn.open span:nth-child(2) { opacity: 0; transform: translateX(10px); }
+#mobile-menu-btn.open span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
+nav#main-nav {
+    z-index: 10000000000000;
+}
     </style>
 </head>
 
@@ -159,82 +216,92 @@
     <canvas id="bg-canvas"></canvas>
 
     <!-- NAVIGATION -->
-    <nav id="main-nav"
-        class="fixed w-full z-[100] border-b border-white/10 bg-f-black/80 backdrop-blur-xl transition-all duration-500 transform -translate-y-full opacity-0">
-        <div class="max-w-7xl mx-auto px-6 py-4 md:py-6 flex justify-between items-center transition-all duration-500"
-            id="nav-container">
+    <!-- NAVIGATION -->
+<!-- NAVIGATION -->
+<nav id="main-nav"
+    class="fixed w-full z-[100] border-b border-white/10 bg-f-black/80 backdrop-blur-xl transition-all duration-500 transform -translate-y-full opacity-0">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 lg:py-6 flex justify-between items-center transition-all duration-500"
+        id="nav-container">
 
-            <!-- Logo with Glitch Effect -->
-            <div class="group relative cursor-pointer">
-                <div class="font-orbitron text-xl md:text-2xl font-bold tracking-tighter relative z-10">
-                    NEURAL<span class="text-f-red group-hover:animate-pulse">_</span>CORE
-                </div>
-                <!-- Ghost effect on hover -->
-                <div
-                    class="absolute inset-0 text-f-red opacity-0 group-hover:opacity-50 group-hover:animate-ping font-orbitron text-xl md:text-2xl font-bold tracking-tighter select-none">
-                    NEURAL_CORE
-                </div>
+        <!-- Logo -->
+        <div class="group relative cursor-pointer flex-shrink-0 z-[110]">
+            <div class="font-orbitron text-lg sm:text-2xl font-bold tracking-tighter relative z-10 whitespace-nowrap">
+                NEURAL<span class="text-f-red group-hover:animate-pulse">_</span>CORE
             </div>
-
-            <!-- Desktop Links: Staggered Load -->
-            <div class="hidden md:flex items-center space-x-1">
-                <a href="#hero" class="nav-link-enhanced group">
-                    <span
-                        class="text-f-red text-[8px] mr-1 opacity-0 group-hover:opacity-100 transition-opacity">[01]</span>
-                    System
-                </a>
-                <a href="#about" class="nav-link-enhanced group">
-                    <span
-                        class="text-f-red text-[8px] mr-1 opacity-0 group-hover:opacity-100 transition-opacity">[02]</span>
-                    User_Bio
-                </a>
-                <a href="#portfolio" class="nav-link-enhanced group">
-                    <span
-                        class="text-f-red text-[8px] mr-1 opacity-0 group-hover:opacity-100 transition-opacity">[03]</span>
-                    Deployments
-                </a>
-                <a href="#experience" class="nav-link-enhanced group">
-                    <span
-                        class="text-f-red text-[8px] mr-1 opacity-0 group-hover:opacity-100 transition-opacity">[04]</span>
-                    Archive
-                </a>
-                <a href="#contact"
-                    class="nav-link-enhanced group px-4 py-2 border border-f-red/0 hover:border-f-red/100 transition-all ml-4">
-                    <span class="text-f-red text-[8px] mr-1">[*]</span>
-                    Signal_Out
-                </a>
+            <div class="absolute inset-0 text-f-red opacity-0 group-hover:opacity-50 group-hover:animate-ping font-orbitron text-lg sm:text-2xl font-bold tracking-tighter select-none whitespace-nowrap">
+                NEURAL_CORE
             </div>
+        </div>
 
-            <!-- Mobile Menu Toggle -->
-            <button id="mobile-menu-btn" class="md:hidden flex flex-col space-y-1.5 p-2 group">
-                <span class="w-6 h-0.5 bg-white group-hover:bg-f-red transition-all"></span>
-                <span class="w-4 h-0.5 bg-white group-hover:bg-f-red transition-all self-end"></span>
-                <span class="w-6 h-0.5 bg-white group-hover:bg-f-red transition-all"></span>
-            </button>
+        <!-- Desktop Links: Switched to 'lg:flex' to prevent mid-screen cutoff -->
+        <div class="hidden lg:flex items-center space-x-1">
+            <a href="#hero" class="nav-link-enhanced group">
+                <span class="text-f-red text-[8px] mr-1 opacity-0 group-hover:opacity-100 transition-opacity">[01]</span>
+                System
+            </a>
+            <a href="#about" class="nav-link-enhanced group">
+                <span class="text-f-red text-[8px] mr-1 opacity-0 group-hover:opacity-100 transition-opacity">[02]</span>
+                User_Bio
+            </a>
+            <a href="#portfolio" class="nav-link-enhanced group">
+                <span class="text-f-red text-[8px] mr-1 opacity-0 group-hover:opacity-100 transition-opacity">[03]</span>
+                Deployments
+            </a>
+            <a href="#experience" class="nav-link-enhanced group">
+                <span class="text-f-red text-[8px] mr-1 opacity-0 group-hover:opacity-100 transition-opacity">[04]</span>
+                Archive
+            </a>
+            <a href="#contact"
+                class="nav-link-enhanced group px-4 py-2 border border-f-red/0 hover:border-f-red/100 transition-all ml-4 whitespace-nowrap">
+                <span class="text-f-red text-[8px] mr-1">[*]</span>
+                Signal_Out
+            </a>
+        </div>
 
-            <!-- System Status Component -->
-            <div class="hidden lg:flex flex-col items-end">
+        <!-- Mobile Interaction Area -->
+        <div class="flex items-center space-x-4">
+            <!-- Status: Only visible on desktop -->
+            <div class="hidden xl:flex flex-col items-end">
                 <div class="flex items-center space-x-2">
                     <span class="relative flex h-2 w-2">
-                        <span
-                            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-f-red opacity-75"></span>
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-f-red opacity-75"></span>
                         <span class="relative inline-flex rounded-full h-2 w-2 bg-f-red"></span>
                     </span>
                     <span class="text-f-red font-orbitron text-[9px] tracking-[0.2em]">STATUS: ACTIVE</span>
                 </div>
                 <div class="text-[8px] text-gray-500 font-mono tracking-tighter" id="nav-clock">00:00:00:00</div>
             </div>
-        </div>
 
-        <!-- Mobile Drawer (Initially Hidden) -->
-        <div id="mobile-drawer"
-            class="fixed inset-0 bg-f-black/95 z-[-1] flex flex-col items-center justify-center space-y-8 opacity-0 pointer-events-none transition-all duration-500">
-            <a href="#hero" class="mobile-nav-link text-3xl font-orbitron">SYSTEM</a>
-            <a href="#about" class="mobile-nav-link text-3xl font-orbitron">USER_BIO</a>
-            <a href="#portfolio" class="mobile-nav-link text-3xl font-orbitron">PROJECTS</a>
-            <a href="#contact" class="mobile-nav-link text-3xl font-orbitron text-f-red">CONTACT</a>
+            <!-- Mobile Menu Toggle: Visible below 1024px -->
+            <button id="mobile-menu-btn" class="lg:hidden flex flex-col space-y-1.5 p-2 group z-[110] relative focus:outline-none">
+                <span id="bar-1" class="w-6 h-0.5 bg-white transition-all duration-300"></span>
+                <span id="bar-2" class="w-4 h-0.5 bg-white self-end transition-all duration-300"></span>
+                <span id="bar-3" class="w-6 h-0.5 bg-white transition-all duration-300"></span>
+            </button>
         </div>
-    </nav>
+    </div>
+
+    <!-- MOBILE DRAWER: Fixed full-screen placement -->
+</nav>
+<!-- MOVE THE DRAWER HERE (Outside the nav) -->
+<div id="mobile-drawer" class="fixed inset-0 bg-f-black/98 z-[150] flex flex-col items-center justify-start pt-32 lg:hidden">
+    
+    <div class="flex flex-col items-center space-y-8 p-6 text-center overflow-y-auto w-full">
+        <div class="text-f-red font-mono text-[10px] tracking-[0.4em] animate-pulse mb-4 uppercase text-center w-full">
+            // ACCESS_GRANTED // MENU_CORE
+        </div>
+        
+        <a href="#hero" class="mobile-nav-link text-3xl font-orbitron hover:text-f-red transition-colors">SYSTEM</a>
+        <a href="#about" class="mobile-nav-link text-3xl font-orbitron hover:text-f-red transition-colors">USER_BIO</a>
+        <a href="#portfolio" class="mobile-nav-link text-3xl font-orbitron hover:text-f-red transition-colors">PROJECTS</a>
+        <a href="#experience" class="mobile-nav-link text-3xl font-orbitron hover:text-f-red transition-colors">ARCHIVE</a>
+        <a href="#contact" class="mobile-nav-link text-3xl font-orbitron text-f-red border border-f-red px-6 py-2">SIGNAL_OUT</a>
+        
+        <div class="mt-8 opacity-20 font-mono text-[10px] tracking-widest text-white">
+            COORD: 40.7128° N, 74.0060° W
+        </div>
+    </div>
+</div>
 
     <!-- HERO SECTION -->
     <!-- HERO SECTION: THE COMMAND CENTER -->
@@ -1701,6 +1768,44 @@
         diagnosticCard.addEventListener('mouseleave', () => {
             diagnosticCard.style.transform = `perspective(500px) rotateX(0deg) rotateY(0deg)`;
         });
+        // 3. Mobile Menu Toggle Logic (FIXED)
+const body = document.body;
+
+/* DELETE all other mobile menu JS and use ONLY this */
+document.addEventListener('DOMContentLoaded', () => {
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const drawer = document.getElementById('mobile-drawer');
+    const body = document.body;
+
+    if (menuBtn && drawer) {
+        menuBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            // Toggle the custom open class
+            drawer.classList.toggle('open');
+            menuBtn.classList.toggle('open');
+            body.classList.toggle('menu-open');
+        });
+
+        // Close drawer when clicking a link
+        const mobileLinks = drawer.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                drawer.classList.remove('open');
+                menuBtn.classList.remove('open');
+                body.classList.remove('menu-open');
+            });
+        });
+
+        // Close drawer when clicking outside the menu area
+        drawer.addEventListener('click', (e) => {
+            if (e.target === drawer) {
+                drawer.classList.remove('open');
+                menuBtn.classList.remove('open');
+                body.classList.remove('menu-open');
+            }
+        });
+    }
+});
     </script>
 </body>
 

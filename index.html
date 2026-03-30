@@ -1124,164 +1124,140 @@ nav#main-nav {
 
     <!-- CONTACT SECTION -->
     <!-- CONTACT SECTION: THE SIGNAL_UPLINK -->
-    <section id="contact" class="relative py-32 bg-f-black overflow-hidden">
+<section id="contact" class="relative py-16 md:py-32 bg-f-black overflow-hidden">
 
-        <!-- BACKGROUND DECOR: RADAR PULSE -->
-        <div
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] border border-f-red/10 rounded-full pointer-events-none animate-pulse">
+    <!-- BACKGROUND DECOR: RADAR PULSE (Now responsive) -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] h-[90vw] md:w-[800px] md:h-[800px] border border-f-red/10 rounded-full pointer-events-none animate-pulse"></div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70vw] h-[70vw] md:w-[500px] md:h-[500px] border border-white/5 rounded-full pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-6 relative z-10">
+
+        <!-- HEADER -->
+        <div class=" mb-16 md:mb-24 reveal zoom-in active text-center">
+            <p class="font-orbitron text-f-red text-[10px] md:text-xs tracking-[0.4em] md:tracking-[0.8em] mb-4 underline uppercase">
+                Establish_Direct_Uplink</p>
+            <!-- Scaled Font: 4xl on 320px -> 8xl on Desktop -->
+            <h2 class="font-orbitron text-3xl sm:text-5xl md:text-8xl font-bold tracking-tighter uppercase leading-none" style="break-word: normal;">
+                SIGNAL<span class="text-f-red"> _ </span>CHANNELS
+            </h2>
         </div>
-        <div
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] border border-white/5 rounded-full pointer-events-none">
-        </div>
 
-        <div class="max-w-7xl mx-auto px-6 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
 
-            <!-- HEADER -->
-            <div class="text-center mb-24 reveal zoom-in">
-                <p class="font-orbitron text-f-red text-xs tracking-[0.8em] mb-4 underline uppercase">
-                    Establish_Direct_Uplink</p>
-                <h2 class="font-orbitron text-5xl md:text-8xl font-bold tracking-tighter uppercase leading-none">
-                    SIGNAL<span class="text-f-red">_</span>CHANNELS
-                </h2>
-            </div>
+            <!-- LEFT PANEL: THE PRIMARY CHANNELS -->
+            <div class="lg:col-span-8 space-y-6 md:space-y-8">
 
-            <div class="grid lg:grid-cols-12 gap-8 items-stretch">
-
-                <!-- LEFT PANEL: THE PRIMARY CHANNELS -->
-                <div class="lg:col-span-8 space-y-8">
-
-                    <!-- CHANNEL 01: EMAIL (Slide Left) -->
-                    <div class="reveal slide-left group">
-                        <a href="mailto:yourname@server.com"
-                            class="block f-border-container f-border-anim !p-0 overflow-hidden bg-f-gray/40 hover:bg-f-red/5 transition-all duration-500">
-                            <div class="flex flex-col md:flex-row items-stretch">
-                                <div
-                                    class="bg-f-red px-6 py-12 flex items-center justify-center group-hover:bg-white transition-colors duration-500">
-                                    <i class="fas fa-envelope text-4xl text-white group-hover:text-f-red"></i>
-                                </div>
-                                <div class="p-8 flex-1 relative">
-                                    <p class="font-orbitron text-[10px] text-f-red mb-2 tracking-widest">ENCODED_MESSAGE
-                                        // EMAIL</p>
-                                    <h3
-                                        class="font-orbitron text-2xl md:text-4xl font-bold tracking-tight mb-2 uppercase break-all">
-                                        yourname<span class="text-f-red">@</span>server.com</h3>
-                                    <p class="font-mono text-xs text-gray-500 uppercase tracking-widest">Click to
-                                        initialize secure transmission</p>
-                                    <!-- Decorative Bit-rate -->
-                                    <div class="absolute bottom-4 right-4 font-mono text-[8px] text-white/20">BITRATE:
-                                        2048KBPS</div>
-                                </div>
+                <!-- CHANNEL 01: EMAIL -->
+                <div class="reveal slide-left group active">
+                    <a href="mailto:yourname@server.com"
+                        class="block f-border-container f-border-anim !p-0 overflow-hidden bg-f-gray/40 hover:bg-f-red/5 transition-all duration-500">
+                        <!-- flex-col for mobile to prevent text cutoff -->
+                        <div class="flex flex-col md:flex-row items-stretch">
+                            <div class="bg-f-red py-8 md:py-12 px-6 flex items-center justify-center group-hover:bg-white transition-colors duration-500">
+                                <i class="fas fa-envelope text-3xl md:text-4xl text-white group-hover:text-f-red"></i>
                             </div>
-                        </a>
-                    </div>
-
-                    <!-- CHANNEL 02: WHATSAPP (Slide Left) -->
-                    <div class="reveal slide-left group" style="transition-delay: 200ms;">
-                        <a href="https://wa.me/yournumber" target="_blank"
-                            class="block f-border-container f-border-anim !p-0 overflow-hidden bg-f-gray/40 hover:bg-green-600/5 transition-all duration-500">
-                            <div class="flex flex-col md:flex-row items-stretch">
-                                <div
-                                    class="bg-white/10 px-6 py-12 flex items-center justify-center group-hover:bg-green-500 transition-colors duration-500 border-r border-white/10">
-                                    <i class="fab fa-whatsapp text-4xl text-white"></i>
-                                </div>
-                                <div class="p-8 flex-1">
-                                    <p class="font-orbitron text-[10px] text-green-500 mb-2 tracking-widest">
-                                        SECURE_COMMS // WHATSAPP</p>
-                                    <h3
-                                        class="font-orbitron text-2xl md:text-4xl font-bold tracking-tight mb-2 uppercase">
-                                        +1 000 <span class="text-f-red">_</span> 000000</h3>
-                                    <div class="flex items-center space-x-2">
-                                        <span class="w-2 h-2 bg-green-500 rounded-full animate-ping"></span>
-                                        <p class="font-mono text-xs text-gray-500 uppercase tracking-widest">Direct Link
-                                            Active</p>
-                                    </div>
-                                </div>
+                            <div class="p-6 md:p-8 flex-1 relative">
+                                <p class="font-orbitron text-[9px] md:text-[10px] text-f-red mb-2 tracking-widest uppercase">ENCODED_MESSAGE // EMAIL</p>
+                                <!-- Added break-all to prevent long emails from cutting off -->
+                                <h3 class="font-orbitron text-xl sm:text-2xl md:text-4xl font-bold tracking-tight mb-2 uppercase break-all">
+                                    yourname<span class="text-f-red">@</span>server.com</h3>
+                                <p class="font-mono text-[10px] text-gray-500 uppercase tracking-widest">Initialize secure transmission</p>
+                                <div class="absolute bottom-4 right-4 font-mono text-[8px] text-white/20 hidden sm:block uppercase">BITRATE: 2048KBPS</div>
                             </div>
-                        </a>
-                    </div>
-
-                </div>
-
-                <!-- RIGHT PANEL: SYSTEM METADATA (Slide Right) -->
-                <div class="lg:col-span-4 flex flex-col gap-8">
-
-                    <!-- STATUS CARD -->
-                    <div
-                        class="reveal slide-right f-border-container bg-f-red !p-8 flex-1 flex flex-col justify-between">
-                        <div>
-                            <h4 class="font-orbitron text-white text-xl font-bold mb-4 tracking-tighter">
-                                AVAILABILITY<br>STATUS</h4>
-                            <div class="space-y-4">
-                                <div class="flex justify-between items-center border-b border-white/20 pb-2">
-                                    <span class="font-mono text-[10px]">MON - FRI</span>
-                                    <span class="font-orbitron text-xs">ONLINE</span>
-                                </div>
-                                <div class="flex justify-between items-center border-b border-white/20 pb-2">
-                                    <span class="font-mono text-[10px]">SAT - SUN</span>
-                                    <span class="font-orbitron text-xs text-white/50">STANDBY</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pt-8">
-                            <p class="font-mono text-[10px] leading-tight opacity-70">
-                                SYSTEM IS CURRENTLY OPTIMIZED FOR NEW PROJECTS. AVG RESPONSE TIME: &lt; 2H.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- SCANNER / QR CARD -->
-                    <div class="reveal slide-right f-border-container !p-0 overflow-hidden group h-48"
-                        style="transition-delay: 200ms;">
-                        <div class="absolute inset-0 bg-f-gray flex items-center justify-center">
-                            <!-- Simulated QR Scanner -->
-                            <div class="w-32 h-32 border-2 border-f-red/30 relative flex items-center justify-center">
-                                <div
-                                    class="w-full h-1 bg-f-red absolute top-0 animate-[scan_3s_linear_infinite] shadow-[0_0_15px_#ff0033]">
-                                </div>
-                                <i
-                                    class="fas fa-qrcode text-6xl text-white/20 group-hover:text-white transition-colors"></i>
-                            </div>
-                        </div>
-                        <div class="absolute bottom-2 left-0 w-full text-center">
-                            <p class="font-orbitron text-[8px] tracking-[0.4em] text-gray-500">ENCRYPTED_VCARD</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- SOCIAL RELAY STRIP -->
-            <div class="mt-24 reveal zoom-in">
-                <div class="flex flex-wrap justify-center gap-4 md:gap-12">
-                    <a href="#" class="group flex flex-col items-center">
-                        <span
-                            class="font-orbitron text-[9px] text-gray-500 group-hover:text-f-red transition-colors mb-2">GITHUB</span>
-                        <div
-                            class="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-f-red transition-all">
-                            <i class="fab fa-github"></i>
-                        </div>
-                    </a>
-                    <a href="#" class="group flex flex-col items-center">
-                        <span
-                            class="font-orbitron text-[9px] text-gray-500 group-hover:text-f-red transition-colors mb-2">LINKEDIN</span>
-                        <div
-                            class="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-f-red transition-all">
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
-                    </a>
-                    <a href="#" class="group flex flex-col items-center">
-                        <span
-                            class="font-orbitron text-[9px] text-gray-500 group-hover:text-f-red transition-colors mb-2">TWITTER</span>
-                        <div
-                            class="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-f-red transition-all">
-                            <i class="fab fa-x-twitter"></i>
                         </div>
                     </a>
                 </div>
+
+                <!-- CHANNEL 02: WHATSAPP -->
+                <div class="reveal slide-left group active" style="transition-delay: 200ms;">
+                    <a href="https://wa.me/yournumber" target="_blank"
+                        class="block f-border-container f-border-anim !p-0 overflow-hidden bg-f-gray/40 hover:bg-green-600/5 transition-all duration-500">
+                        <div class="flex flex-col md:flex-row items-stretch">
+                            <div class="bg-white/10 py-8 md:py-12 px-6 flex items-center justify-center group-hover:bg-green-500 transition-colors duration-500 border-b md:border-b-0 md:border-r border-white/10">
+                                <i class="fab fa-whatsapp text-3xl md:text-4xl text-white"></i>
+                            </div>
+                            <div class="p-6 md:p-8 flex-1">
+                                <p class="font-orbitron text-[9px] md:text-[10px] text-green-500 mb-2 tracking-widest uppercase">SECURE_COMMS // WHATSAPP</p>
+                                <h3 class="font-orbitron text-xl sm:text-2xl md:text-4xl font-bold tracking-tight mb-2 uppercase whitespace-nowrap">
+                                    +1 000 <span class="text-f-red">_</span> 000000</h3>
+                                <div class="flex items-center space-x-2">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full animate-ping"></span>
+                                    <p class="font-mono text-[10px] text-gray-500 uppercase tracking-widest uppercase">Direct Link Active</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
             </div>
 
+            <!-- RIGHT PANEL: SYSTEM METADATA -->
+            <div class="lg:col-span-4 flex flex-col gap-6 md:gap-8">
+
+                <!-- STATUS CARD -->
+                <div class="reveal slide-right f-border-container bg-f-red !p-6 sm:!p-8 flex-1 flex flex-col justify-between active">
+                    <div>
+                        <h4 class="font-orbitron text-white text-lg sm:text-xl font-bold mb-4 tracking-tighter uppercase">AVAILABILITY<br>STATUS</h4>
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center border-b border-white/20 pb-2">
+                                <span class="font-mono text-[10px] uppercase">MON - FRI</span>
+                                <span class="font-orbitron text-[10px] sm:text-xs font-bold uppercase">ONLINE</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b border-white/20 pb-2">
+                                <span class="font-mono text-[10px] uppercase">SAT - SUN</span>
+                                <span class="font-orbitron text-[10px] sm:text-xs text-white/50 font-bold uppercase">STANDBY</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-6">
+                        <p class="font-mono text-[9px] sm:text-[10px] leading-tight opacity-70 uppercase">
+                            SYSTEM IS CURRENTLY OPTIMIZED FOR NEW PROJECTS. AVG RESPONSE TIME: &lt; 2H.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- SCANNER / QR CARD -->
+                <div class="reveal slide-right f-border-container !p-0 overflow-hidden group h-40 md:h-48 active" style="transition-delay: 200ms;">
+                    <div class="absolute inset-0 bg-f-gray flex items-center justify-center">
+                        <div class="w-24 h-24 md:w-32 md:h-32 border-2 border-f-red/30 relative flex items-center justify-center">
+                            <div class="w-full h-1 bg-f-red absolute top-0 animate-[scan_3s_linear_infinite] shadow-[0_0_15px_#ff0033]"></div>
+                            <i class="fas fa-qrcode text-4xl md:text-6xl text-white/20 group-hover:text-white transition-colors"></i>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-2 left-0 w-full text-center">
+                        <p class="font-orbitron text-[8px] tracking-[0.4em] text-gray-500 uppercase">ENCRYPTED_VCARD</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </section>
+
+        <!-- SOCIAL RELAY STRIP -->
+        <div class="mt-16 md:mt-24 reveal zoom-in active">
+            <div class="flex flex-wrap justify-center gap-6 md:gap-12">
+                <a href="#" class="group flex flex-col items-center">
+                    <span class="font-orbitron text-[8px] md:text-[9px] text-gray-500 group-hover:text-f-red transition-colors mb-2 uppercase">GITHUB</span>
+                    <div class="w-10 h-10 md:w-12 md:h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-f-red transition-all">
+                        <i class="fab fa-github text-sm"></i>
+                    </div>
+                </a>
+                <a href="#" class="group flex flex-col items-center">
+                    <span class="font-orbitron text-[8px] md:text-[9px] text-gray-500 group-hover:text-f-red transition-colors mb-2 uppercase">LINKEDIN</span>
+                    <div class="w-10 h-10 md:w-12 md:h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-f-red transition-all">
+                        <i class="fab fa-linkedin-in text-sm"></i>
+                    </div>
+                </a>
+                <a href="#" class="group flex flex-col items-center">
+                    <span class="font-orbitron text-[8px] md:text-[9px] text-gray-500 group-hover:text-f-red transition-colors mb-2 uppercase">TWITTER</span>
+                    <div class="w-10 h-10 md:w-12 md:h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-f-red transition-all">
+                        <i class="fab fa-x-twitter text-sm"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
 
     <!-- FOOTER -->
     <!-- FOOTER SECTION: THE FINAL_NODE -->

@@ -856,7 +856,8 @@ nav#main-nav {
 
     <!-- PORTFOLIO SECTION -->
     <!-- PORTFOLIO SECTION: THE VISUAL ARCHIVE -->
-    <section id="portfolio" class="relative py-32 bg-f-black overflow-hidden">
+    <!-- PORTFOLIO SECTION: THE VISUAL ARCHIVE -->
+    <section id="portfolio" class="relative py-16 md:py-32 bg-f-black overflow-hidden">
 
         <!-- SECTION DECOR: TACTICAL GRID -->
         <div class="absolute inset-0 opacity-10 pointer-events-none"
@@ -865,85 +866,93 @@ nav#main-nav {
         <div class="max-w-7xl mx-auto px-6 relative z-10">
 
             <!-- HEADER: DUAL-TONE TITLE -->
-            <div class="flex flex-col md:flex-row items-center justify-between mb-24">
-                <div class="reveal slide-left">
-                    <h2 class="font-orbitron text-5xl md:text-8xl font-bold tracking-tighter leading-none">
+            <div class="flex flex-col md:flex-row items-center justify-between mb-16 md:mb-24 gap-8">
+                <div class="reveal slide-left active">
+                    <!-- Scaled Typography: 4xl on mobile -> 8xl on Desktop -->
+                    <h2
+                        class="font-orbitron text-4xl sm:text-6xl md:text-8xl font-bold tracking-tighter leading-none text-center md:text-left">
                         VISUAL<br><span class="text-f-red">ARCHIVE</span>
                     </h2>
-                    <div class="h-1 w-32 bg-f-red mt-4"></div>
+                    <div class="h-1 w-24 md:w-32 bg-f-red mt-4 mx-auto md:mx-0"></div>
                 </div>
-                <div class="reveal slide-right text-right mt-8 md:mt-0">
-                    <p class="font-orbitron text-[10px] text-gray-500 tracking-[0.4em] mb-2">SYSTEM_OUTPUT_04</p>
-                    <div class="flex space-x-2 justify-end">
+                <div class="reveal slide-right text-center md:text-right active">
+                    <p class="font-orbitron text-[9px] md:text-[10px] text-gray-500 tracking-[0.4em] mb-2 uppercase">
+                        SYSTEM_OUTPUT_04</p>
+                    <div class="flex space-x-2 justify-center md:justify-end">
                         <span
-                            class="px-3 py-1 bg-white/5 border border-white/10 text-[10px] font-mono">ALL_DEPLOYS</span>
-                        <span class="px-3 py-1 bg-f-red text-white text-[10px] font-mono animate-pulse">LIVE_SYNC</span>
+                            class="px-3 py-1 bg-white/5 border border-white/10 text-[9px] md:text-[10px] font-mono uppercase">ALL_DEPLOYS</span>
+                        <span
+                            class="px-3 py-1 bg-f-red text-white text-[9px] md:text-[10px] font-mono animate-pulse uppercase">LIVE_SYNC</span>
                     </div>
                 </div>
             </div>
 
-            <!-- THE MOSAIC GRID (Unthinkable Structure) -->
-            <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 auto-rows-[300px] gap-6">
+            <!-- THE MOSAIC GRID -->
+            <!-- Fixed: Changed auto-rows to allow expansion on small screens to prevent text cutoff -->
+            <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 auto-rows-auto md:auto-rows-[300px] gap-6">
 
-                <!-- PROJECT 01: THE HERO PROJECT (Large) -->
+                <!-- PROJECT 01: THE HERO PROJECT -->
                 <div
-                    class="lg:col-span-8 lg:row-span-2 reveal slide-left group relative overflow-hidden f-border-container !p-0">
-                    <!-- Glitch Overlay -->
+                    class="lg:col-span-8 lg:row-span-2 min-h-[400px] md:min-h-0 reveal slide-left group relative overflow-hidden f-border-container !p-0 active">
                     <div
                         class="absolute inset-0 bg-f-red/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none mix-blend-overlay">
                     </div>
-
                     <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200"
                         alt="Project 1"
                         class="absolute inset-0 w-full h-full object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0">
 
+                    <!-- Content Container: Adjusted padding for mobile -->
                     <div
-                        class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent p-10 flex flex-col justify-end z-20">
-                        <p class="font-orbitron text-f-red text-xs mb-2 tracking-widest">[ DEPLOYMENT_001 ]</p>
-                        <h3 class="font-orbitron text-4xl font-bold mb-4">NEBULA_OS</h3>
+                        class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent p-6 sm:p-10 flex flex-col justify-end z-20">
+                        <p class="font-orbitron text-f-red text-[10px] sm:text-xs mb-2 tracking-widest uppercase">[
+                            DEPLOYMENT_001 ]</p>
+                        <h3 class="font-orbitron text-2xl sm:text-4xl font-bold mb-4 uppercase">NEBULA_OS</h3>
+                        <!-- Added flex-wrap to tags to prevent overflow -->
                         <div
-                            class="flex space-x-4 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
-                            <span class="text-[10px] font-mono border border-white/30 px-2 py-1">REACT</span>
-                            <span class="text-[10px] font-mono border border-white/30 px-2 py-1">THREE.JS</span>
-                            <span class="text-[10px] font-mono border border-white/30 px-2 py-1">AWS_LAMBDA</span>
+                            class="flex flex-wrap gap-2 sm:gap-4 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+                            <span
+                                class="text-[9px] sm:text-[10px] font-mono border border-white/30 px-2 py-1 uppercase">REACT</span>
+                            <span
+                                class="text-[9px] sm:text-[10px] font-mono border border-white/30 px-2 py-1 uppercase">THREE.JS</span>
+                            <span
+                                class="text-[9px] sm:text-[10px] font-mono border border-white/30 px-2 py-1 uppercase">AWS_LAMBDA</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- PROJECT 02: THE TALL CARD (Portrait) -->
-                <div class="lg:col-span-4 lg:row-span-3 reveal zoom-in group relative overflow-hidden f-border-container !p-0"
+                <!-- PROJECT 02: THE TALL CARD -->
+                <div class="lg:col-span-4 lg:row-span-3 min-h-[400px] md:min-h-0 reveal zoom-in group relative overflow-hidden f-border-container !p-0 active"
                     style="transition-delay: 200ms;">
                     <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=800"
                         alt="Project 2"
                         class="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000">
                     <div
-                        class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center p-8 text-center backdrop-blur-sm">
+                        class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center p-6 text-center backdrop-blur-sm">
                         <div>
-                            <h3 class="font-orbitron text-2xl mb-4">QUANTUM_CRYPT</h3>
-                            <p class="text-xs text-gray-300 mb-6 font-mono">End-to-end encrypted messaging node with
-                                blockchain validation.</p>
+                            <h3 class="font-orbitron text-xl sm:text-2xl mb-4 uppercase">QUANTUM_CRYPT</h3>
+                            <p class="text-[11px] sm:text-xs text-gray-300 mb-6 font-mono uppercase leading-relaxed">
+                                End-to-end encrypted messaging node with blockchain validation.</p>
                             <a href="#" class="btn-f !py-2 !px-4 text-[10px]">INITIALIZE_LINK</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- PROJECT 03: THE WIDE CARD (Landscape) -->
-                <div class="lg:col-span-8 lg:row-span-1 reveal slide-right group relative overflow-hidden f-border-container !p-0"
+                <!-- PROJECT 03: THE WIDE CARD -->
+                <div class="lg:col-span-8 lg:row-span-1 min-h-[200px] md:min-h-0 reveal slide-right group relative overflow-hidden f-border-container !p-0 active"
                     style="transition-delay: 400ms;">
                     <div class="absolute inset-0 bg-f-gray"></div>
-                    <!-- Interactive Grid Hover -->
                     <div class="absolute inset-0 opacity-20 group-hover:opacity-100 transition-opacity"
                         style="background-image: linear-gradient(var(--f-red) 1px, transparent 1px), linear-gradient(90deg, var(--f-red) 1px, transparent 1px); background-size: 20px 20px;">
                     </div>
-
-                    <div class="relative h-full flex items-center justify-between px-10">
+                    <div class="relative h-full flex items-center justify-between px-6 sm:px-10">
                         <div>
-                            <h3 class="font-orbitron text-3xl">SYNTH_OS_V2</h3>
-                            <p class="text-f-red font-mono text-[10px] tracking-widest mt-2">STATUS: STABLE_RELEASE</p>
+                            <h3 class="font-orbitron text-xl sm:text-3xl uppercase">SYNTH_OS_V2</h3>
+                            <p class="text-f-red font-mono text-[9px] sm:text-[10px] tracking-widest mt-2 uppercase">
+                                STATUS: STABLE_RELEASE</p>
                         </div>
-                        <div class="hidden md:block">
+                        <div class="hidden sm:block">
                             <div
-                                class="w-24 h-24 border border-f-red flex items-center justify-center rotate-45 group-hover:rotate-180 transition-all duration-1000">
+                                class="w-16 h-16 md:w-24 md:h-24 border border-f-red flex items-center justify-center rotate-45 group-hover:rotate-180 transition-all duration-1000">
                                 <i
                                     class="fas fa-project-diagram -rotate-45 group-hover:-rotate-180 transition-all duration-1000 text-f-red"></i>
                             </div>
@@ -952,44 +961,37 @@ nav#main-nav {
                 </div>
 
                 <!-- PROJECT 04: SQUARE CARD -->
-                <div class="lg:col-span-4 lg:row-span-1 reveal zoom-in group relative overflow-hidden f-border-container !p-0"
+                <div class="lg:col-span-4 lg:row-span-1 min-h-[300px] md:min-h-0 reveal zoom-in group relative overflow-hidden f-border-container !p-0 active"
                     style="transition-delay: 100ms;">
                     <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
                         alt="Project 4"
                         class="w-full h-full object-cover brightness-50 group-hover:brightness-100 transition-all">
                     <div class="absolute bottom-4 left-4">
-                        <h3 class="font-orbitron text-lg">DATAFRAME_X</h3>
+                        <h3 class="font-orbitron text-base sm:text-lg uppercase">DATAFRAME_X</h3>
                     </div>
                 </div>
 
-                <!-- PROJECT 05: THE DATA PANEL (Unthinkable Design) -->
+                <!-- PROJECT 05: THE DATA PANEL -->
                 <div
-                    class="lg:col-span-4 lg:row-span-1 reveal slide-left group relative f-border-container bg-f-red !p-8 text-white">
-                    <h3 class="font-orbitron text-2xl font-bold leading-tight">CUSTOM_ENGINE<br>ARCHITECTURE</h3>
-                    <p class="font-mono text-[10px] mt-4 opacity-80 uppercase tracking-tighter leading-none">
+                    class="lg:col-span-4 lg:row-span-1 reveal slide-left group relative f-border-container bg-f-red !p-6 sm:!p-8 text-white active">
+                    <!-- Scaled text for mobile -->
+                    <h3 class="font-orbitron text-xl sm:text-2xl font-bold leading-tight uppercase">
+                        CUSTOM_ENGINE<br>ARCHITECTURE</h3>
+                    <p
+                        class="font-mono text-[9px] sm:text-[10px] mt-4 opacity-80 uppercase tracking-tighter leading-normal">
                         Proprietary middleware built for high-concurrency visual processing and real-time state
                         management.
                     </p>
                     <div class="mt-6 flex justify-between items-end">
-                        <div class="font-orbitron text-4xl">05</div>
+                        <div class="font-orbitron text-3xl sm:text-4xl">05</div>
                         <div
-                            class="w-10 h-10 border-2 border-white/30 rounded-full flex items-center justify-center group-hover:border-white transition-all">
+                            class="w-8 h-8 sm:w-10 sm:h-10 border-2 border-white/30 rounded-full flex items-center justify-center group-hover:border-white transition-all">
                             <i class="fas fa-plus text-xs"></i>
                         </div>
                     </div>
                 </div>
 
             </div>
-
-            <!-- LOAD MORE / BOTTOM ACTION 
-        <div class="mt-20 flex flex-col items-center reveal zoom-in">
-            <div class="w-[1px] h-20 bg-gradient-to-b from-f-red to-transparent mb-8"></div>
-            <button class="btn-f group px-12 relative">
-                <span class="relative z-10">LOAD_MORE_ARCHIVES</span>
-                <div class="absolute inset-0 bg-f-red translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
-            </button>
-        </div>
-        -->
         </div>
     </section>
 

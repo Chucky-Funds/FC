@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOTYFLIX | Premium Highlights</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            color: white;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            border-color: #ef4444;
+            transition: all 0.3s ease;
+        }
+
+        .active-filter {
+            background: #ef4444 !important;
+            color: white;
+            border-color: #ef4444;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #1e293b;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ef4444;
+        }
+
+        /* Hide scrollbar for league list but keep functional */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Extreme responsiveness for screens under 320px */
+        @media (max-width: 340px) {
+
+            .px-4 {
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+            }
+        }
+
+        /* Animation for league buttons */
+        .active-filter-glow {
+            box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
+        }
+    </style>
+</head>
+
+<body x-data="footballApp()">
+
+    <!-- TOP NAVIGATION -->
+    <!-- THE SUPREME FOOTYFLIX HEADER -->
+    <!-- UPDATED HEADER: "LATEST" BUTTON REMOVED & CLEANED -->
+    <nav class="sticky top-0 z-50 w-full select-none" x-data="{ searchOpen: false }">
+        <!-- Top Bar: Logo & Search -->
+        <div class="bg-slate-950 border-b border-white/5 backdrop-blur-xl">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-16 sm:h-20">
+
+                    <!-- Brand Logo: Aggressive & Sharp -->
+                    <div class="flex items-center group cursor-pointer" @click="view = 'home'">
+                        <div class="relative">
+                            <div
+                                class="absolute -inset-1 bg-gradient-to-r from-red-600 to-blue-600 rounded-lg blur opacity-10 group-hover:opacity-40 transition duration-1000">
+                            </div>
+                            <div class="relative bg-slate-900 p-2 rounded-lg border border-white/10 shadow-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="w-5 h-5 sm:w-6 sm:h-6 text-red-500 fill-current" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-3 flex flex-col leading-none">
+                            <span class="text-xl sm:text-2xl font-black italic tracking-tighter text-white uppercase">
+                                FOOTY<span class="text-red-600">FLIX</span>
+                            </span>
+                            <span
+                                class="text-[8px] sm:text-[9px] font-bold text-blue-400 tracking-[0.3em] uppercase opacity-70">The
+                                Home of Football</span>
+                        </div>
+                    </div>
+
+                    <!-- Desktop Search Area: Centered and Sleek -->
+                    <div class="hidden md:flex items-center flex-1 max-w-md mx-10">
+                        <div class="relative w-full group">
+                            <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                                <svg class="h-4 w-4 text-slate-500 group-focus-within:text-green-500 transition-colors"
+                                    fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                </svg>
+                            </div>
+                            <input type="text" placeholder="Search matches, teams..."
+                                class="block w-full bg-slate-900/40 border border-slate-800 text-slate-300 text-sm rounded-2xl py-2.5 pl-11 pr-4 focus:outline-none focus:ring-1 focus:ring-green-500/30 focus:border-green-500/30 transition-all placeholder:text-slate-600 hover:bg-slate-900/60">
+                        </div>
+                    </div>
+
+                    <!-- Mobile Search Trigger -->
+                    <div class="flex md:hidden">
+                        <button @click="searchOpen = !searchOpen"
+                            class="p-2.5 text-slate-400 hover:text-white bg-white/5 rounded-xl border border-white/5 transition-all active:scale-90">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Search Drawer (320px responsive) -->
+            <div x-show="searchOpen" x-collapse x-cloak
+                class="md:hidden px-4 pb-4 bg-slate-950 border-t border-white/5">
+                <div class="mt-4 relative">
+                    <input type="text" placeholder="Search highlights..."
+                        class="w-full bg-slate-900 border border-slate-700 text-white rounded-xl px-4 py-3 text-sm focus:ring-1 focus:ring-green-500 outline-none">
+                </div>
+            </div>
+        </div>
+
+        <!-- Secondary Bar: League Filter Navigation -->
+        <div class="bg-slate-900/95 backdrop-blur-xl border-b border-white/5 overflow-hidden shadow-2xl">
+            <div class="max-w-7xl mx-auto px-2 sm:px-6">
+                <div
+                    class="flex items-center justify-start lg:justify-center overflow-x-auto no-scrollbar py-3 gap-2 px-2">
+                    <template x-for="league in leagues" :key="league">
+                        <button @click="filterLeague(league)"
+                            :class="selectedLeague === league ? 
+                            'bg-red-600 text-white border-red-500 shadow-lg shadow-red-900/40 translate-y-[-1px]' : 
+                            'bg-slate-800/50 text-slate-400 border-white/5 hover:bg-slate-800 hover:text-white hover:border-white/10'"
+                            class="relative flex-shrink-0 px-5 py-2.5 rounded-xl text-[10px] sm:text-xs font-black uppercase tracking-widest border transition-all duration-200 active:scale-95">
+                            <span x-text="league"></span>
+                        </button>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Glow Line (Separator) -->
+        <div class="h-[1px] w-full bg-gradient-to-r from-transparent via-blue-500/30 to-transparent"></div>
+    </nav>
+
+
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+        <!-- HOME PAGE: MATCH GRID -->
+        <div x-show="view === 'home'" x-transition>
+            <div class="flex justify-between items-end mb-8">
+                <div>
+                    <h2 class="text-3xl font-black italic uppercase tracking-tight">Recent <span
+                            class="text-red-500 text-shadow">Highlights</span></h2>
+                    <p class="text-slate-400 text-sm">Showing the latest action from across the globe</p>
+                </div>
+                <div class="text-right hidden sm:block">
+                    <span class="text-green-500 font-bold text-xs uppercase tracking-widest">Server Time: 14:32
+                        GMT</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 card-holder">
+                <template x-for="match in filteredMatches" :key="match.id">
+                    <div @click="openMatch(match)"
+                        class="glass rounded-2xl overflow-hidden cursor-pointer card-hover group">
+                        <!-- Thumbnail -->
+                        <div class="relative aspect-video">
+                            <img :src="match.thumbnail"
+                                class="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent"></div>
+                            <div class="absolute top-3 left-3 bg-red-600 text-[10px] font-black px-2 py-1 rounded">HD 4K
+                            </div>
+                            <div class="absolute bottom-3 right-3 bg-black/70 backdrop-blur-md px-2 py-1 rounded-md text-xs font-bold border border-white/10"
+                                x-text="match.duration"></div>
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                <div class="bg-green-500 p-4 rounded-full shadow-lg shadow-green-500/40">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-white"
+                                        viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Info -->
+                        <div class="p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-[10px] font-bold text-red-500 uppercase tracking-widest"
+                                    x-text="match.league"></span>
+                                <span class="text-[10px] text-slate-500" x-text="match.date"></span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex flex-col items-center gap-1 w-1/3">
+                                    <img :src="match.homeLogo" class="w-8 h-8 object-contain">
+                                    <span class="text-[10px] font-bold text-center truncate w-full"
+                                        x-text="match.homeTeam"></span>
+                                </div>
+                                <div class="flex flex-col items-center">
+                                    <span class="text-xl font-black text-white italic" x-text="match.score"></span>
+                                    <span class="text-[8px] font-bold text-slate-500 uppercase">FT</span>
+                                </div>
+                                <div class="flex flex-col items-center gap-1 w-1/3">
+                                    <img :src="match.awayLogo" class="w-8 h-8 object-contain">
+                                    <span class="text-[10px] font-bold text-center truncate w-full"
+                                        x-text="match.awayTeam"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- OVERVIEW PAGE: VIDEO & STATS -->
+        <div x-show="view === 'detail'" x-transition class="space-y-6">
+            <button @click="view = 'home'"
+                class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor"
+                    stroke-width="2" viewBox="0 0 24 24">
+                    <path d="m15 18-6-6 6-6" />
+                </svg>
+                <span class="text-sm font-bold uppercase tracking-widest">Back to Matches</span>
+            </button>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Video Section -->
+                <div class="lg:col-span-2 space-y-6">
+                    <div
+                        class="aspect-video bg-black rounded-3xl overflow-hidden border border-slate-800 shadow-2xl relative">
+                        <!-- Placeholder for Video Player -->
+                        <div class="absolute inset-0 flex items-center justify-center bg-slate-900">
+                            <img :src="activeMatch?.thumbnail"
+                                class="absolute inset-0 w-full h-full object-cover opacity-30 blur-sm">
+                            <div class="relative z-10 text-center">
+                                <button class="bg-red-600 p-6 rounded-full hover:scale-110 transition-transform mb-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 fill-white"
+                                        viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </button>
+                                <p class="text-xl font-bold tracking-tight">Play Extended Highlights</p>
+                                <p class="text-slate-400 text-sm">4K Ultra HD Quality</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass p-6 rounded-3xl">
+                        <div class="flex flex-wrap items-center justify-between gap-4">
+                            <div>
+                                <h1 class="text-2xl font-black italic uppercase"
+                                    x-text="`${activeMatch?.homeTeam} vs ${activeMatch?.awayTeam}`"></h1>
+                                <p class="text-slate-400 text-sm"
+                                    x-text="`${activeMatch?.league} • Matchday ${activeMatch?.matchday}`"></p>
+                            </div>
+                            <div class="flex gap-2">
+                                <button class="bg-slate-800 hover:bg-slate-700 p-3 rounded-xl"><svg
+                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+                                    </svg></button>
+                                <button
+                                    class="bg-green-600 hover:bg-green-500 px-6 py-3 rounded-xl font-bold text-sm">Share
+                                    Highlight</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats Sidebar -->
+                <div class="space-y-6">
+                    <div class="glass p-6 rounded-3xl">
+                        <h3 class="text-lg font-black italic uppercase mb-6 border-b border-slate-800 pb-2">Match
+                            Statistics</h3>
+
+                        <!-- Possession -->
+                        <div class="mb-6">
+                            <div class="flex justify-between text-xs font-bold mb-2 uppercase">
+                                <span x-text="activeMatch?.homeTeam"></span>
+                                <span>Possession</span>
+                                <span x-text="activeMatch?.awayTeam"></span>
+                            </div>
+                            <div class="h-3 w-full bg-slate-800 rounded-full flex overflow-hidden">
+                                <div class="bg-red-500 h-full transition-all duration-1000"
+                                    :style="`width: ${activeMatch?.stats.possession[0]}%` text-align: center"></div>
+                                <div class="bg-green-500 h-full transition-all duration-1000"
+                                    :style="`width: ${activeMatch?.stats.possession[1]}%` text-align: center"></div>
+                            </div>
+                            <div class="flex justify-between text-sm font-black mt-2 italic">
+                                <span x-text="activeMatch?.stats.possession[0] + '%'"></span>
+                                <span x-text="activeMatch?.stats.possession[1] + '%'"></span>
+                            </div>
+                        </div>
+
+                        <!-- General Stats List -->
+                        <div class="space-y-4">
+                            <template x-for="stat in ['shots', 'shotsOnTarget', 'corners', 'fouls']">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-xl font-bold italic text-red-500"
+                                        x-text="activeMatch?.stats[stat][0]"></span>
+                                    <span class="text-[10px] font-bold text-slate-500 uppercase tracking-widest"
+                                        x-text="stat.replace(/([A-Z])/g, ' $1')"></span>
+                                    <span class="text-xl font-bold italic text-green-500"
+                                        x-text="activeMatch?.stats[stat][1]"></span>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                    <!-- Standing Hint -->
+                    <div class="bg-gradient-to-br from-blue-600 to-blue-800 p-6 rounded-3xl">
+                        <p class="text-[10px] font-bold uppercase mb-1 opacity-80">League Position</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold" x-text="activeMatch?.homeTeam"></span>
+                            <span class="text-2xl font-black italic">#2</span>
+                        </div>
+                        <div class="mt-4 h-1 w-full bg-white/20 rounded-full">
+                            <div class="bg-white h-full w-2/3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function footballApp() {
+    return {
+        view: 'home',
+        selectedLeague: 'ALL LEAGUES',
+        leagues: ['ALL LEAGUES', 'PREMIER LEAGUE', 'CHAMPIONS LEAGUE', 'LA LIGA', 'SERIE A', 'BUNDESLIGA', 'LIGUE 1'],
+        matches: [], // Loaded from JSON
+        activeMatch: null,
+        currentTime: '',
+
+        // 1. Initializer: Runs when page loads
+        async init() {
+            this.updateTime();
+            setInterval(() => this.updateTime(), 60000); // Update time every minute
+
+            try {
+                const response = await fetch('matches.json');
+                this.matches = await response.json();
+            } catch (e) {
+                console.error("Failed to load matches. Make sure matches.json exists and you are using a local server.");
+            }
+        },
+
+        // 2. Compute filtered results based on league selection
+        get filteredMatches() {
+            if (this.selectedLeague === 'ALL LEAGUES') return this.matches;
+            return this.matches.filter(m => m.league === this.selectedLeague);
+        },
+
+        // 3. Helper to update the "Server Time"
+        updateTime() {
+            const now = new Date();
+            this.currentTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false }) + ' GMT';
+        },
+
+        // 4. Navigation
+        filterLeague(league) {
+            this.selectedLeague = league;
+            this.view = 'home';
+        },
+
+        openMatch(match) {
+            this.activeMatch = match;
+            this.view = 'detail';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    }
+}
+    </script>
+</body>
+
+</html>

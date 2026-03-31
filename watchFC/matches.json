@@ -1,0 +1,143 @@
+[
+    
+    {
+        "id": 7,
+        "league": "PREMIER LEAGUE",
+        "homeTeam": "Tottenham",
+        "awayTeam": "Nottingham Forest",
+        "homeLogo": "https://media.api-sports.io/football/teams/47.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/65.png",
+        "score": "2 - 1",
+        "date": "22 March 2026",
+        "duration": "11:10",
+        "matchday": 19,
+        "thumbnail": "https://images.unsplash.com/photo-1570498839593-e565b39455fc?auto=format&fit=crop&q=80&w=800",
+        "stats": {
+            "possession": [48, 52],
+            "shots": [14, 16],
+            "shotsOnTarget": [6, 6],
+            "corners": [3, 7],
+            "fouls": [14, 12]
+        }
+    },
+    {
+        "id": 6,
+        "league": "PREMIER LEAGUE",
+        "homeTeam": "Aston Villa",
+        "awayTeam": "West Ham",
+        "homeLogo": "https://media.api-sports.io/football/teams/66.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/48.png",
+        "score": "2 - 1",
+        "date": "22 March 2026",
+        "duration": "11:10",
+        "matchday": 19,
+        "thumbnail": "https://images.unsplash.com/photo-1570498839593-e565b39455fc?auto=format&fit=crop&q=80&w=800",
+        "stats": {
+            "possession": [48, 52],
+            "shots": [14, 16],
+            "shotsOnTarget": [6, 6],
+            "corners": [3, 7],
+            "fouls": [14, 12]
+        }
+    },
+    {
+        "id": 5,
+        "league": "PREMIER LEAGUE",
+        "homeTeam": "Newcastle",
+        "awayTeam": "Sunderland",
+        "homeLogo": "https://media.api-sports.io/football/teams/34.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/69.png",
+        "score": "2 - 1",
+        "date": "22 March 2026",
+        "duration": "11:10",
+        "matchday": 19,
+        "thumbnail": "https://images.unsplash.com/photo-1570498839593-e565b39455fc?auto=format&fit=crop&q=80&w=800",
+        "stats": {
+            "possession": [48, 52],
+            "shots": [14, 16],
+            "shotsOnTarget": [6, 6],
+            "corners": [3, 7],
+            "fouls": [14, 12]
+        }
+    },
+    {
+        "id": 4,
+        "league": "PREMIER LEAGUE",
+        "homeTeam": "Brighton",
+        "awayTeam": "Liverpool",
+        "homeLogo": "https://media.api-sports.io/football/teams/51.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/40.png",
+        "score": "2 - 1",
+        "date": "21 March 2026",
+        "duration": "10:45",
+        "matchday": 24,
+        "thumbnail": "images/BvsL.png",
+        "stats": {
+            "possession": [45, 55],
+            "shots": [12, 14],
+            "shotsOnTarget": [5, 4],
+            "corners": [4, 8],
+            "fouls": [10, 7]
+        }
+    },
+    {
+        "id": 3,
+        "league": "PREMIER LEAGUE",
+        "homeTeam": "Fulham",
+        "awayTeam": "Burnley",
+        "homeLogo": "https://media.api-sports.io/football/teams/36.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/44.png",
+        "score": "3 - 1",
+        "date": "21 March 2026",
+        "duration": "12:20",
+        "matchday": "Semi Final",
+        "thumbnail": "images/FvsB.webp",
+        "stats": {
+            "possession": [51, 49],
+            "shots": [18, 15],
+            "shotsOnTarget": [8, 7],
+            "corners": [6, 5],
+            "fouls": [12, 11]
+        }
+    },
+    {
+        "id": 2,
+        "league": "PREMIER LEAGUE",
+        "homeTeam": "Everton",
+        "awayTeam": "Chelsea",
+        "homeLogo": "https://media.api-sports.io/football/teams/45.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/49.png",
+        "score": "3 - 0",
+        "date": "21 March 2026",
+        "duration": "09:15",
+        "matchday": 22,
+        "thumbnail": "images/EvsC.png",
+        "stats": {
+            "possession": [65, 35],
+            "shots": [22, 4],
+            "shotsOnTarget": [11, 1],
+            "corners": [9, 2],
+            "fouls": [8, 15]
+        }
+    },
+    {
+        "id": 1,
+        "league": "PREMIER LEAGUE",
+        "homeTeam": "Leeds United",
+        "awayTeam": "Brentford",
+        "homeLogo": "https://media.api-sports.io/football/teams/63.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/38.pngg",
+        "score": "0 - 0",
+        "date": "21 March 2026",
+        "duration": "08:50",
+        "matchday": 25,
+        "thumbnail": "images/LvsB.png",
+        "stats": {
+            "possession": [50, 50],
+            "shots": [10, 11],
+            "shotsOnTarget": [3, 2],
+            "corners": [5, 4],
+            "fouls": [18, 20]
+        }
+    }
+]

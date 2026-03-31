@@ -13,7 +13,8 @@ if (isTouchDevice) {
 
 const isDesktop = window.matchMedia("(hover: hover)").matches;
 
-/* --- CANVAS BACKGROUND LOGIC --- */
+
+/* --- GENERAL FUNCTIONS: CANVAS BACKGROUND --- */
 function initCanvas() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
@@ -62,7 +63,8 @@ function drawDots() {
     requestAnimationFrame(drawDots);
 }
 
-/* --- INTERSECTION OBSERVER (REVEAL & PROGRESS BARS) --- */
+
+/* --- GENERAL FUNCTIONS: INTERSECTION OBSERVER & REVEALS --- */
 const observerOptions = {
     threshold: 0.15,
     rootMargin: "0px 0px -50px 0px"
@@ -81,7 +83,8 @@ const mainObserver = new IntersectionObserver((entries) => {
 // Observe reveal elements and skill border containers
 document.querySelectorAll('.reveal, .f-border-container').forEach(el => mainObserver.observe(el));
 
-/* --- MOUSE TRACKING & COORDINATES --- */
+
+/* --- GENERAL FUNCTIONS: MOUSE TRACKING & COORDINATES --- */
 const mouseXText = document.getElementById('mouse-x');
 const mouseYText = document.getElementById('mouse-y');
 const scannerLine = document.getElementById('hero-scanner');
@@ -103,7 +106,8 @@ window.addEventListener('mousemove', (e) => {
     if (mouseFollower) mouseFollower.style.transform = `translateY(${e.clientY}px)`;
 });
 
-/* --- SCROLL INTERACTIONS --- */
+
+/* --- NAV SECTION & SCROLL INTERACTIONS --- */
 window.addEventListener('scroll', () => {
     const nav = document.getElementById('main-nav');
     const container = document.getElementById('nav-container');
@@ -123,7 +127,7 @@ window.addEventListener('scroll', () => {
         }
     }
 
-    // 2. Timeline Indicator Rail
+    // 2. Timeline Indicator Rail (General Scroll logic)
     if (rail && section) {
         const sectionRect = section.getBoundingClientRect();
         const sectionHeight = section.offsetHeight;
@@ -139,7 +143,8 @@ window.addEventListener('scroll', () => {
     }
 });
 
-/* --- 3D TILT EFFECTS (Merged) --- */
+
+/* --- GENERAL FUNCTIONS: 3D TILT EFFECTS --- */
 if (isDesktop) {
     // About Section Tilt
     const tiltCardAbout = document.getElementById('tilt-card-enhanced');
@@ -184,7 +189,8 @@ if (isDesktop) {
     }
 }
 
-/* --- LOG STREAM & SYSTEM STATUS --- */
+
+/* --- SECTION-SPECIFIC: HERO SYSTEM LOGS --- */
 const logs = [
     "> INITIALIZING BOOT_SEQUENCE", "> LOADING NEURAL_NETWORKS...",
     "> SHADERS COMPILED SUCCESSFULLY", "> CONNECTING TO DATABASE_CORE",
@@ -204,7 +210,8 @@ function addLog() {
     setTimeout(addLog, Math.random() * 2000 + 500);
 }
 
-/* --- CLOCK & UPTIME --- */
+
+/* --- GENERAL FUNCTIONS: CLOCK & SYSTEM UPTIME --- */
 function updateClock() {
     const el = document.getElementById('nav-clock');
     if (!el) return;
@@ -228,7 +235,8 @@ function updateUptime() {
     uptimeDisplay.innerText = `${h}:${m}:${s}:${ms}`;
 }
 
-/* --- COUNTER ANIMATION --- */
+
+/* --- SECTION-SPECIFIC: HERO METRIC COUNTERS --- */
 const startCounters = () => {
     document.querySelectorAll('.counter').forEach(counter => {
         const updateCount = () => {
@@ -246,14 +254,15 @@ const startCounters = () => {
     });
 };
 
-/* --- DOM CONTENT LOADED TRIGGER --- */
+
+/* --- MAIN INITIALIZATION & EVENT LISTENERS --- */
 document.addEventListener('DOMContentLoaded', () => {
-    // Init Canvas
+    // Init Canvas Background
     initCanvas();
     drawDots();
     window.addEventListener('resize', initCanvas);
 
-    // Initial Nav State
+    // Initial Nav Reveal Animation
     const nav = document.getElementById('main-nav');
     if (nav) {
         setTimeout(() => {
@@ -261,13 +270,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 500);
     }
 
-    // Start Loops
+    // Start System Monitoring Loops
     setInterval(updateClock, 50);
     setInterval(updateUptime, 100);
     addLog();
     setTimeout(startCounters, 1000);
 
-    // Skill Proximity Interaction
+    // Skill Proximity Glow Interaction
     const interactiveZone = document.getElementById('skill-interactive-zone');
     const proximityGlow = document.getElementById('proximity-glow');
     if (interactiveZone && proximityGlow) {
@@ -281,7 +290,7 @@ document.addEventListener('DOMContentLoaded', () => {
         interactiveZone.addEventListener('mouseenter', () => { proximityGlow.style.opacity = "1"; });
     }
 
-    // Portfolio Image Parallax
+    // Portfolio Image Parallax Interaction
     document.querySelectorAll('.f-border-container').forEach(card => {
         card.addEventListener('mousemove', (e) => {
             const img = card.querySelector('img');
@@ -297,7 +306,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Contact Logic
+    // Contact Section Visual Feedback
     document.querySelectorAll('#contact h3').forEach(header => {
         header.addEventListener('mouseenter', () => {
             header.classList.add('animate-pulse');
@@ -319,7 +328,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Footer Flicker logic
+    // Footer Link Flicker Effects
     document.querySelectorAll('#final-node a').forEach(link => {
         link.addEventListener('mouseenter', () => {
             link.style.filter = 'drop-shadow(0 0 5px #ff0033)';
@@ -331,7 +340,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Mobile Menu Toggle
+    /* --- MOBILE NAV DRAWER LOGIC --- */
     const menuBtn = document.getElementById('mobile-menu-btn');
     const drawer = document.getElementById('mobile-drawer');
     const body = document.body;

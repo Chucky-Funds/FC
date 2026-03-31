@@ -874,5 +874,341 @@
             "corners": [5, 5],
             "fouls": [12, 13]
         }
+    },
+    {
+        "id": 20016,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Bodø/Glimt",
+        "awayTeam": "Sporting CP",
+        "homeLogo": "https://media.api-sports.io/football/teams/807.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/211.png",
+        "score": "0 - 0",
+        "date": "18 March 2026 (2nd Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "2nd Leg",
+        "thumbnail": "images/BGvsSCP.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20015,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Galatasaray",
+        "awayTeam": "Liverpool",
+        "homeLogo": "https://media.api-sports.io/football/teams/610.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/40.png",
+        "score": "0 - 0",
+        "date": "18 March 2026 (2nd Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "2nd Leg",
+        "thumbnail": "images/GvsL.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20014,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Bayer Leverkusen",
+        "awayTeam": "Arsenal",
+        "homeLogo": "https://media.api-sports.io/football/teams/168.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/42.png",
+        "score": "0 - 0",
+        "date": "18 March 2026 (2nd Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "2nd Leg",
+        "thumbnail": "images/BLvsA.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20013,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Atalanta",
+        "awayTeam": "Bayern Munich",
+        "homeLogo": "https://media.api-sports.io/football/teams/499.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/157.png",
+        "score": "0 - 0",
+        "date": "18 March 2026 (2nd Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "2nd Leg",
+        "thumbnail": "images/AvsBM.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20012,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Tottenham",
+        "awayTeam": "Atlético Madrid",
+        "homeLogo": "https://media.api-sports.io/football/teams/47.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/530.png",
+        "score": "0 - 0",
+        "date": "17 March 2026 (2nd Leg)    ",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "2nd Leg",
+        "thumbnail": "images/TvsAM.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20011,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Newcastle",
+        "awayTeam": "Barcelona",
+        "homeLogo": "https://media.api-sports.io/football/teams/34.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/529.png",
+        "score": "0 - 0",
+        "date": "17 March 2026 (2nd Leg)    ",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "2nd Leg",
+        "thumbnail": "images/NvsB.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20010,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Chelsea",
+        "awayTeam": "PSG",
+        "homeLogo": "https://media.api-sports.io/football/teams/49.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/85.png",
+        "score": "0 - 0",
+        "date": "17 March 2026 (2nd Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "2nd Leg",
+        "thumbnail": "images/CvsPSG.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20009,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Manchester City",
+        "awayTeam": "Real Madrid",
+        "homeLogo": "https://media.api-sports.io/football/teams/50.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/541.png",
+        "score": "0 - 0",
+        "date": "17 March 2026 (2nd Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "2nd Leg",
+        "thumbnail": "images/MCvsRM.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20008,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Sporting CP",
+        "awayTeam": "Bodø/Glimt",
+        "homeLogo": "https://media.api-sports.io/football/teams/211.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/807.png",
+        "score": "0 - 0",
+        "date": "11 March 2026 (1st Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "1st Leg",
+        "thumbnail": "images/SCPvsBG.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20007,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Liverpool",
+        "awayTeam": "Galatasaray",
+        "homeLogo": "https://media.api-sports.io/football/teams/40.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/610.png",
+        "score": "0 - 0",
+        "date": "11 March 2026 (1st Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "1st Leg",
+        "thumbnail": "images/LvsG.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20006,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Arsenal",
+        "awayTeam": "Bayer Leverkusen",
+        "homeLogo": "https://media.api-sports.io/football/teams/42.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/168.png",
+        "score": "0 - 0",
+        "date": "11 March 2026 (1st Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "1st Leg",
+        "thumbnail": "images/AvsBL.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20005,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Bayern Munich",
+        "awayTeam": "Atalanta",
+        "homeLogo": "https://media.api-sports.io/football/teams/157.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/499.png",
+        "score": "0 - 0",
+        "date": "11 March 2026 (1st Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "1st Leg",
+        "thumbnail": "images/BMvsA.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20004,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Atlético Madrid",
+        "awayTeam": "Tottenham",
+        "homeLogo": "https://media.api-sports.io/football/teams/530.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/47.png",
+        "score": "0 - 0",
+        "date": "10 March 2026 (1st Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "1st Leg",
+        "thumbnail": "images/AMvsT.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20003,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Barcelona",
+        "awayTeam": "Newcastle",
+        "homeLogo": "https://media.api-sports.io/football/teams/529.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/34.png",
+        "score": "0 - 0",
+        "date": "10 March 2026 (1st Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "1st Leg",
+        "thumbnail": "images/BvsN.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20002,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "PSG",
+        "awayTeam": "Chelsea",
+        "homeLogo": "https://media.api-sports.io/football/teams/85.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/49.png",
+        "score": "0 - 0",
+        "date": "10 March 2026  (1st Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "1st Leg",
+        "thumbnail": "images/PSGvsC.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
+    },
+    {
+        "id": 20001,
+        "league": "CHAMPIONS LEAGUE",
+        "homeTeam": "Real Madrid",
+        "awayTeam": "Manchester City",
+        "homeLogo": "https://media.api-sports.io/football/teams/541.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/50.png",
+        "score": "0 - 0",
+        "date": "10 March 2026 (1st Leg)",
+        "duration": "21:00",
+        "matchday": "Round of 16",
+        "leg": "1st Leg",
+        "thumbnail": "images/RMvsMC.png",
+        "stats": {
+            "possession": [0, 0],
+            "shots": [0, 0],
+            "shotsOnTarget": [0, 0],
+            "corners": [0, 0],
+            "fouls": [0, 0]
+        }
     }
 ]

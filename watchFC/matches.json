@@ -10,7 +10,7 @@
         "date": "22 March 2026",
         "duration": "13:10",
         "matchday": 30,
-        "thumbnail": "images/FvsI.jpg",
+        "thumbnail": "https://raw.githubusercontent.com/Chucky-Funds/FC/refs/heads/main/watchFC/images/FvsI.png",
         "videoUrl": "videos/highlights.mp4",
         "stats": {
             "possession": [44, 56],
@@ -31,7 +31,7 @@
         "date": "22 March 2026",
         "duration": "12:15",
         "matchday": 27,
-        "thumbnail": "images/AvsS.png",
+        "thumbnail": "https://raw.githubusercontent.com/Chucky-Funds/FC/refs/heads/main/watchFC/images/AvsS.png",
         "videoUrl": "videos/highlights.mp4",
         "stats": {
             "possession": [45, 55],
@@ -52,7 +52,7 @@
         "date": "22 March 2026",
         "duration": "11:50",
         "matchday": 30,
-        "thumbnail": "images/AvsV.png",
+        "thumbnail": "https://raw.githubusercontent.com/Chucky-Funds/FC/refs/heads/main/watchFC/images/AvsV.png",
         "videoUrl": "videos/highlights.mp4",
         "stats": {
             "possession": [65, 35],
@@ -73,7 +73,7 @@
         "date": "22 March 2026",
         "duration": "11:50",
         "matchday": 27,
-        "thumbnail": "images/LvsM.png",
+        "thumbnail": "https://raw.githubusercontent.com/Chucky-Funds/FC/refs/heads/main/watchFC/images/LvsM.png",
         "videoUrl": "videos/highlights.mp4",
         "stats": {
             "possession": [50, 50],
@@ -865,7 +865,7 @@
         "date": "20 March 2026",
         "duration": "08:40",
         "matchday": 30,
-        "thumbnail": "images/GvsU.png",
+        "thumbnail": "https://res.cloudinary.com/drdd1lrzg/image/upload/v1774988318/GvsU_dgo4vl.png",
         "videoUrl": "videos/highlights.mp4",
         "stats": {
             "possession": [50, 50],
@@ -971,7 +971,7 @@
         "duration": "21:00",
         "matchday": "Round of 16",
         "leg": "2nd Leg",
-        "thumbnail": "images/AMvsT.png",
+        "thumbnail": "https://raw.githubusercontent.com/Chucky-Funds/FC/refs/heads/main/watchFC/images/AMvsT.png",
         "stats": {
             "possession": [0, 0],
             "shots": [0, 0],
@@ -1055,7 +1055,7 @@
         "duration": "21:00",
         "matchday": "Round of 16",
         "leg": "1st Leg",
-        "thumbnail": "images/SCPvsBG.png",
+        "thumbnail": "https://res.cloudinary.com/drdd1lrzg/image/upload/v1774988318/SCPvsBG_nctne0.png",
         "stats": {
             "possession": [0, 0],
             "shots": [0, 0],
@@ -1076,7 +1076,7 @@
         "duration": "21:00",
         "matchday": "Round of 16",
         "leg": "1st Leg",
-        "thumbnail": "images/LvsG.png",
+        "thumbnail": "https://res.cloudinary.com/drdd1lrzg/image/upload/v1774988314/LvsG_cdwan5.png",
         "stats": {
             "possession": [0, 0],
             "shots": [0, 0],
@@ -1097,7 +1097,7 @@
         "duration": "21:00",
         "matchday": "Round of 16",
         "leg": "1st Leg",
-        "thumbnail": "images/AvsBL.png",
+        "thumbnail": "https://res.cloudinary.com/drdd1lrzg/image/upload/v1774988291/AvsBL_fkxlh8.png",
         "stats": {
             "possession": [0, 0],
             "shots": [0, 0],
@@ -1118,7 +1118,7 @@
         "duration": "21:00",
         "matchday": "Round of 16",
         "leg": "1st Leg",
-        "thumbnail": "images/BMvsA.png",
+        "thumbnail": "https://res.cloudinary.com/drdd1lrzg/image/upload/v1774988269/BMvsA_wj5z6c.png",
         "stats": {
             "possession": [0, 0],
             "shots": [0, 0],
@@ -1139,7 +1139,7 @@
         "duration": "21:00",
         "matchday": "Round of 16",
         "leg": "1st Leg",
-        "thumbnail": "images/AMvsT.png",
+        "thumbnail": "https://res.cloudinary.com/drdd1lrzg/image/upload/v1774988288/AMvsT_1_dc2chq.png",
         "stats": {
             "possession": [0, 0],
             "shots": [0, 0],
@@ -1160,7 +1160,7 @@
         "duration": "21:00",
         "matchday": "Round of 16",
         "leg": "1st Leg",
-        "thumbnail": "images/BvsN.png",
+        "thumbnail": "https://res.cloudinary.com/drdd1lrzg/image/upload/v1774988305/BvsN_ceasmw.png",
         "stats": {
             "possession": [0, 0],
             "shots": [0, 0],
@@ -1181,7 +1181,7 @@
         "duration": "21:00",
         "matchday": "Round of 16",
         "leg": "1st Leg",
-        "thumbnail": "images/PvsC.png",
+        "thumbnail": "https://res.cloudinary.com/drdd1lrzg/image/upload/v1774988302/PvsC_vvfskl.png",
         "stats": {
             "possession": [0, 0],
             "shots": [0, 0],
@@ -1202,7 +1202,7 @@
         "duration": "21:00",
         "matchday": "Round of 16",
         "leg": "1st Leg",
-        "thumbnail": "images/RvsM.png",
+        "thumbnail": "https://res.cloudinary.com/drdd1lrzg/image/upload/v1774988318/RvsM_sl1dgx.png",
         "stats": {
             "possession": [0, 0],
             "shots": [0, 0],

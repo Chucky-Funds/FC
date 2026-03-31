@@ -568,5 +568,215 @@
                 20
             ]
         }
+    },
+    {
+        "id": 12100,
+        "league": "SERIE A",
+        "homeTeam": "Cagliari",
+        "awayTeam": "Napoli",
+        "homeLogo": "https://media.api-sports.io/football/teams/490.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/492.png",
+        "score": "0 - 1",
+        "date": "20 March 2026",
+        "duration": "09:15",
+        "matchday": 30,
+        "thumbnail": "images/CvsN.png",
+        "videoUrl": "videos/highlights.mp4",
+        "stats": {
+            "possession": [42, 58],
+            "shots": [8, 16],
+            "shotsOnTarget": [3, 7],
+            "corners": [4, 9],
+            "fouls": [14, 10]
+        }
+    },
+    {
+        "id": 12101,
+        "league": "SERIE A",
+        "homeTeam": "Genoa",
+        "awayTeam": "Udinese",
+        "homeLogo": "https://media.api-sports.io/football/teams/495.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/494.png",
+        "score": "0 - 2",
+        "date": "20 March 2026",
+        "duration": "08:40",
+        "matchday": 30,
+        "thumbnail": "images/GvsU.png",
+        "videoUrl": "videos/highlights.mp4",
+        "stats": {
+            "possession": [50, 50],
+            "shots": [12, 11],
+            "shotsOnTarget": [4, 4],
+            "corners": [5, 5],
+            "fouls": [12, 13]
+        }
+    },
+    {
+        "id": 12102,
+        "league": "SERIE A",
+        "homeTeam": "Parma",
+        "awayTeam": "Cremonese",
+        "homeLogo": "https://media.api-sports.io/football/teams/523.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/512.png",
+        "score": "0 - 0",
+        "date": "21 March 2026",
+        "duration": "10:05",
+        "matchday": 30,
+        "thumbnail": "images/PvsCr.png",
+        "videoUrl": "videos/highlights.mp4",
+        "stats": {
+            "possession": [55, 45],
+            "shots": [14, 8],
+            "shotsOnTarget": [6, 2],
+            "corners": [7, 3],
+            "fouls": [11, 15]
+        }
+    },
+    {
+        "id": 12103,
+        "league": "SERIE A",
+        "homeTeam": "AC Milan",
+        "awayTeam": "Torino",
+        "homeLogo": "https://media.api-sports.io/football/teams/489.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/503.png",
+        "score": "2 - 3",
+        "date": "21 March 2026",
+        "duration": "12:30",
+        "matchday": 30,
+        "thumbnail": "images/AvsT.png",
+        "videoUrl": "videos/highlights.mp4",
+        "stats": {
+            "possession": [62, 38],
+            "shots": [18, 7],
+            "shotsOnTarget": [8, 3],
+            "corners": [6, 2],
+            "fouls": [10, 14]
+        }
+    },
+    {
+        "id": 12104,
+        "league": "SERIE A",
+        "homeTeam": "Juventus",
+        "awayTeam": "Sassuolo",
+        "homeLogo": "https://media.api-sports.io/football/teams/496.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/488.png",
+        "score": "1 - 1",
+        "date": "21 March 2026",
+        "duration": "09:55",
+        "matchday": 30,
+        "thumbnail": "images/JvsS.png",
+        "videoUrl": "videos/highlights.mp4",
+        "stats": {
+            "possession": [58, 42],
+            "shots": [15, 9],
+            "shotsOnTarget": [6, 3],
+            "corners": [8, 4],
+            "fouls": [12, 11]
+        }
+    },
+    {
+        "id": 12105,
+        "league": "SERIE A",
+        "homeTeam": "Como",
+        "awayTeam": "Pisa",
+        "homeLogo": "https://media.api-sports.io/football/teams/517.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/520.png",
+        "score": "5 - 0",
+        "date": "22 March 2026",
+        "duration": "10:20",
+        "matchday": 30,
+        "thumbnail": "images/CvsP.png",
+        "videoUrl": "videos/highlights.mp4",
+        "stats": {
+            "possession": [49, 51],
+            "shots": [11, 12],
+            "shotsOnTarget": [4, 5],
+            "corners": [5, 6],
+            "fouls": [13, 14]
+        }
+    },
+    {
+        "id": 12106,
+        "league": "SERIE A",
+        "homeTeam": "Atalanta",
+        "awayTeam": "Verona",
+        "homeLogo": "https://media.api-sports.io/football/teams/499.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/502.png",
+        "score": "1 - 0",
+        "date": "22 March 2026",
+        "duration": "11:50",
+        "matchday": 30,
+        "thumbnail": "images/AvsV.png",
+        "videoUrl": "videos/highlights.mp4",
+        "stats": {
+            "possession": [65, 35],
+            "shots": [22, 6],
+            "shotsOnTarget": [11, 2],
+            "corners": [10, 2],
+            "fouls": [9, 12]
+        }
+    },
+    {
+        "id": 12107,
+        "league": "SERIE A",
+        "homeTeam": "Bologna",
+        "awayTeam": "Lazio",
+        "homeLogo": "https://media.api-sports.io/football/teams/500.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/487.png",
+        "score": "0 - 2",
+        "date": "22 March 2026",
+        "duration": "09:35",
+        "matchday": 30,
+        "thumbnail": "images/BovsL.png",
+        "videoUrl": "videos/highlights.mp4",
+        "stats": {
+            "possession": [47, 53],
+            "shots": [10, 13],
+            "shotsOnTarget": [3, 6],
+            "corners": [4, 7],
+            "fouls": [15, 12]
+        }
+    },
+    {
+        "id": 12108,
+        "league": "SERIE A",
+        "homeTeam": "Roma",
+        "awayTeam": "Lecce",
+        "homeLogo": "https://media.api-sports.io/football/teams/497.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/510.png",
+        "score": "1 - 0",
+        "date": "22 March 2026",
+        "duration": "10:45",
+        "matchday": 30,
+        "thumbnail": "images/RvsL.png",
+        "videoUrl": "videos/highlights.mp4",
+        "stats": {
+            "possession": [60, 40],
+            "shots": [17, 8],
+            "shotsOnTarget": [7, 2],
+            "corners": [9, 3],
+            "fouls": [11, 13]
+        }
+    },
+    {
+        "id": 12109,
+        "league": "SERIE A",
+        "homeTeam": "Fiorentina",
+        "awayTeam": "Inter",
+        "homeLogo": "https://media.api-sports.io/football/teams/502.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/505.png",
+        "score": "1 - 1",
+        "date": "22 March 2026",
+        "duration": "13:10",
+        "matchday": 30,
+        "thumbnail": "images/FvsI.jpg",
+        "videoUrl": "videos/highlights.mp4",
+        "stats": {
+            "possession": [44, 56],
+            "shots": [11, 18],
+            "shotsOnTarget": [4, 9],
+            "corners": [5, 8],
+            "fouls": [14, 11]
+        }
     }
 ]

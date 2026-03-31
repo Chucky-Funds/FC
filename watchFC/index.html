@@ -254,46 +254,40 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <!-- Video Section -->
+                <!-- Video Section -->
                 <div class="lg:col-span-2 space-y-6">
                     <div
                         class="aspect-video bg-black rounded-3xl overflow-hidden border border-slate-800 shadow-2xl relative">
-                        <!-- Placeholder for Video Player -->
-                        <div class="absolute inset-0 flex items-center justify-center bg-slate-900">
+
+                        <!-- THUMBNAIL & PLAY BUTTON (Shown only if videoPlaying is false) -->
+                        <div x-show="!videoPlaying" class="absolute inset-0 z-10">
                             <img :src="activeMatch?.thumbnail"
-                                class="absolute inset-0 w-full h-full object-cover opacity-30 blur-sm">
-                            <div class="relative z-10 text-center">
-                                <button class="bg-red-600 p-6 rounded-full hover:scale-110 transition-transform mb-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 fill-white"
-                                        viewBox="0 0 24 24">
-                                        <path d="M8 5v14l11-7z" />
-                                    </svg>
-                                </button>
-                                <p class="text-xl font-bold tracking-tight">Play Extended Highlights</p>
-                                <p class="text-slate-400 text-sm">4K Ultra HD Quality</p>
+                                class="absolute inset-0 w-full h-full object-cover opacity-50 blur-sm">
+                            <div class="absolute inset-0 flex items-center justify-center bg-slate-900/60">
+                                <div class="text-center">
+                                    <button @click="videoPlaying = true"
+                                        class="bg-red-600 p-6 rounded-full hover:scale-110 transition-transform mb-4 shadow-xl shadow-red-600/20">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 fill-white"
+                                            viewBox="0 0 24 24">
+                                            <path d="M8 5v14l11-7z" />
+                                        </svg>
+                                    </button>
+                                    <p class="text-xl font-bold tracking-tight">Play Extended Highlights</p>
+                                    <p class="text-slate-400 text-sm">4K Ultra HD Quality</p>
+                                </div>
                             </div>
                         </div>
+
+                        <!-- ACTUAL VIDEO PLAYER (Shown when play button clicked) -->
+                        <template x-if="videoPlaying">
+                            <video controls autoplay class="w-full h-full">
+                                <source :src="activeMatch?.videoUrl" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </template>
                     </div>
 
-                    <div class="glass p-6 rounded-3xl">
-                        <div class="flex flex-wrap items-center justify-between gap-4">
-                            <div>
-                                <h1 class="text-2xl font-black italic uppercase"
-                                    x-text="`${activeMatch?.homeTeam} vs ${activeMatch?.awayTeam}`"></h1>
-                                <p class="text-slate-400 text-sm"
-                                    x-text="`${activeMatch?.league} • Matchday ${activeMatch?.matchday}`"></p>
-                            </div>
-                            <div class="flex gap-2">
-                                <button class="bg-slate-800 hover:bg-slate-700 p-3 rounded-xl"><svg
-                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none"
-                                        stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-                                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
-                                    </svg></button>
-                                <button
-                                    class="bg-green-600 hover:bg-green-500 px-6 py-3 rounded-xl font-bold text-sm">Share
-                                    Highlight</button>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- ... rest of the detail info ... -->
                 </div>
 
                 <!-- Stats Sidebar -->
@@ -354,52 +348,56 @@
 
     <script>
         function footballApp() {
-    return {
-        view: 'home',
-        selectedLeague: 'ALL LEAGUES',
-        leagues: ['ALL LEAGUES', 'PREMIER LEAGUE', 'CHAMPIONS LEAGUE', 'LA LIGA', 'SERIE A', 'BUNDESLIGA', 'LIGUE 1'],
-        matches: [], // Loaded from JSON
-        activeMatch: null,
-        currentTime: '',
 
-        // 1. Initializer: Runs when page loads
-        async init() {
-            this.updateTime();
-            setInterval(() => this.updateTime(), 60000); // Update time every minute
+            return {
+                view: 'home',
+                videoPlaying: false, // NEW: Track if player is active
+                selectedLeague: 'ALL LEAGUES',
+                leagues: ['ALL LEAGUES', 'PREMIER LEAGUE', 'CHAMPIONS LEAGUE', 'LA LIGA', 'SERIE A', 'BUNDESLIGA', 'LIGUE 1'],
+                matches: [], // Loaded from JSON
+                activeMatch: null,
+                currentTime: '',
 
-            try {
-                const response = await fetch('matches.json');
-                this.matches = await response.json();
-            } catch (e) {
-                console.error("Failed to load matches. Make sure matches.json exists and you are using a local server.");
+                // 1. Initializer: Runs when page loads
+                async init() {
+                    this.updateTime();
+                    setInterval(() => this.updateTime(), 60000); // Update time every minute
+
+                    try {
+                        const response = await fetch('matches.json');
+                        this.matches = await response.json();
+                    } catch (e) {
+                        console.error("Failed to load matches. Make sure matches.json exists and you are using a local server.");
+                    }
+                },
+
+                // 2. Compute filtered results based on league selection
+                get filteredMatches() {
+                    if (this.selectedLeague === 'ALL LEAGUES') return this.matches;
+                    return this.matches.filter(m => m.league === this.selectedLeague);
+                },
+
+                // 3. Helper to update the "Server Time"
+                updateTime() {
+                    const now = new Date();
+                    this.currentTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false }) + ' GMT';
+                },
+
+                // 4. Navigation
+                filterLeague(league) {
+                    this.selectedLeague = league;
+                    this.view = 'home';
+                },
+
+                openMatch(match) {
+                    this.activeMatch = match;
+                    this.view = 'detail';
+                    this.videoPlaying = false; // Reset video state when opening new match
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+
             }
-        },
-
-        // 2. Compute filtered results based on league selection
-        get filteredMatches() {
-            if (this.selectedLeague === 'ALL LEAGUES') return this.matches;
-            return this.matches.filter(m => m.league === this.selectedLeague);
-        },
-
-        // 3. Helper to update the "Server Time"
-        updateTime() {
-            const now = new Date();
-            this.currentTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false }) + ' GMT';
-        },
-
-        // 4. Navigation
-        filterLeague(league) {
-            this.selectedLeague = league;
-            this.view = 'home';
-        },
-
-        openMatch(match) {
-            this.activeMatch = match;
-            this.view = 'detail';
-            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
-    }
-}
     </script>
 </body>
 

@@ -62,7 +62,6 @@
 
         /* Extreme responsiveness for screens under 320px */
         @media (max-width: 340px) {
-
             .px-4 {
                 padding-left: 0.5rem;
                 padding-right: 0.5rem;
@@ -195,8 +194,56 @@
                         class="glass rounded-2xl overflow-hidden cursor-pointer card-hover group">
                         <!-- Thumbnail -->
                         <div class="relative aspect-video">
-                            <img :src="match.thumbnail"
-                                class="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all">
+                            <!-- DYNAMIC THUMBNAIL GENERATOR -->
+                            <div :class="getLeagueGradient(match.league)"
+                                class="relative w-full h-full overflow-hidden flex items-center justify-center transition-all duration-500 group-hover:scale-105">
+
+                                <!-- Abstract Background Pattern (Subtle League Name) -->
+                                <div
+                                    class="absolute inset-0 flex items-center justify-center select-none opacity-10 pointer-events-none">
+                                    <span
+                                        class="text-4xl font-black italic uppercase whitespace-nowrap transform -rotate-12 scale-150"
+                                        x-text="match.league"></span>
+                                </div>
+
+                                <!-- Matchup Display -->
+                                <div class="relative z-10 flex items-center justify-between w-full px-4 sm:px-6 gap-2">
+                                    <!-- Home -->
+                                    <div class="flex flex-col items-center flex-1">
+                                        <div
+                                            class="w-12 h-12 sm:w-16 sm:h-16 bg-white/10 backdrop-blur-md rounded-full p-2 border border-white/20 shadow-xl group-hover:scale-110 transition-transform">
+                                            <img :src="match.homeLogo" class="w-full h-full object-contain">
+                                        </div>
+                                        <span
+                                            class="text-[10px] font-black mt-2 text-white drop-shadow-md uppercase text-center"
+                                            x-text="match.homeTeam"></span>
+                                    </div>
+
+                                    <!-- VS / Score -->
+                                    <div class="flex flex-col items-center">
+                                        <div
+                                            class="bg-black/40 backdrop-blur-xl px-3 py-1 rounded-full border border-white/20 mb-1">
+                                            <span class="text-[10px] font-black tracking-widest text-red-500">VS</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Away -->
+                                    <div class="flex flex-col items-center flex-1">
+                                        <div
+                                            class="w-12 h-12 sm:w-16 sm:h-16 bg-white/10 backdrop-blur-md rounded-full p-2 border border-white/20 shadow-xl group-hover:scale-110 transition-transform">
+                                            <img :src="match.awayLogo" class="w-full h-full object-contain">
+                                        </div>
+                                        <span
+                                            class="text-[10px] font-black mt-2 text-white drop-shadow-md uppercase text-center"
+                                            x-text="match.awayTeam"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Decorative Bottom Bar -->
+                                <div
+                                    class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-white/40 to-transparent">
+                                </div>
+                            </div>
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent"></div>
                             <div class="absolute top-3 left-3 bg-red-600 text-[10px] font-black px-2 py-1 rounded">HD 4K
                             </div>
@@ -261,8 +308,8 @@
 
                         <!-- THUMBNAIL & PLAY BUTTON (Shown only if videoPlaying is false) -->
                         <div x-show="!videoPlaying" class="absolute inset-0 z-10">
-                            <img :src="activeMatch?.thumbnail"
-                                class="absolute inset-0 w-full h-full object-cover opacity-50 blur-sm">
+                            <div :class="getLeagueGradient(activeMatch?.league)" class="absolute inset-0 w-full h-full">
+                            </div>
                             <div class="absolute inset-0 flex items-center justify-center bg-slate-900/60">
                                 <div class="text-center">
                                     <button @click="videoPlaying = true"
@@ -357,6 +404,21 @@
                 matches: [], // Loaded from JSON
                 activeMatch: null,
                 currentTime: '',
+
+                getLeagueGradient(league) {
+                    const styles = {
+                        'PREMIER LEAGUE': 'bg-gradient-to-br from-[#3d195d] via-[#3d195d] to-[#1e0a2e]', // PL Purple
+                        'CHAMPIONS LEAGUE': 'bg-gradient-to-br from-[#000d29] via-[#003399] to-[#000d29]', // UCL Deep Blue
+                        'LA LIGA': 'bg-gradient-to-br from-[#ee0000] via-[#ffcc00] to-[#ee0000]', // La Liga Red/Gold
+                        'SERIE A': 'bg-gradient-to-br from-[#008fd7] via-[#024494] to-[#001d3d]', // Serie A Cyan/Blue
+                        'BUNDESLIGA': 'bg-gradient-to-br from-[#d20515] via-[#a60411] to-[#000000]', // Bundesliga Red/Black
+                        'LIGUE 1': 'bg-gradient-to-br from-[#dae025] via-[#243f95] to-[#243f95]', // Ligue 1 Yellow/Blue
+                        'INTERNATIONAL': 'bg-gradient-to-br from-[#006233] via-[#ffffff20] to-[#006233]', // World Cup Green
+                    };
+
+                    // Default style if league doesn't match
+                    return styles[league.toUpperCase()] || 'bg-gradient-to-br from-slate-800 to-slate-950';
+                },
 
                 // 1. Initializer: Runs when page loads
                 async init() {

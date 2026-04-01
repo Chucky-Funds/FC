@@ -1,5 +1,1235 @@
 [
     {
+        "id": 20057,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Cameroon",
+        "awayTeam": "China",
+        "homeLogo": "https://flagcdn.com/w80/cm.png",
+        "awayLogo": "https://flagcdn.com/w80/cn.png",
+        "score": "2 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/CAMvsCHN.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20058,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Australia",
+        "awayTeam": "Curaçao",
+        "homeLogo": "https://flagcdn.com/w80/au.png",
+        "awayLogo": "https://flagcdn.com/w80/cw.png",
+        "score": "5 - 1",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/AUSvsCUR.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20059,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Kazakhstan",
+        "awayTeam": "Comoros",
+        "homeLogo": "https://flagcdn.com/w80/kz.png",
+        "awayLogo": "https://flagcdn.com/w80/km.png",
+        "score": "1 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/KAZvsCOM.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20060,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Iran",
+        "awayTeam": "Costa Rica",
+        "homeLogo": "https://flagcdn.com/w80/ir.png",
+        "awayLogo": "https://flagcdn.com/w80/cr.png",
+        "score": "5 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/IRNvsCOS.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20061,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Montenegro",
+        "awayTeam": "Slovenia",
+        "homeLogo": "https://flagcdn.com/w80/me.png",
+        "awayLogo": "https://flagcdn.com/w80/si.png",
+        "score": "2 - 3",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/MONvsSLO.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20062,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Norway",
+        "awayTeam": "Switzerland",
+        "homeLogo": "https://flagcdn.com/w80/no.png",
+        "awayLogo": "https://flagcdn.com/w80/ch.png",
+        "score": "0 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/NORvsSUI.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20063,
+        "league": "INTERNATIONAL",
+        "homeTeam": "San Marino",
+        "awayTeam": "Andorra",
+        "homeLogo": "https://flagcdn.com/w80/sm.png",
+        "awayLogo": "https://flagcdn.com/w80/ad.png",
+        "score": "0 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/SMRvsAND.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20064,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Serbia",
+        "awayTeam": "Saudi Arabia",
+        "homeLogo": "https://flagcdn.com/w80/rs.png",
+        "awayLogo": "https://flagcdn.com/w80/sa.png",
+        "score": "2 - 1",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/SERvsSAU.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20065,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Zimbabwe",
+        "awayTeam": "Zambia",
+        "homeLogo": "https://flagcdn.com/w80/zw.png",
+        "awayLogo": "https://flagcdn.com/w80/zm.png",
+        "score": "1 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/ZIMvsZAM.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20066,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Haiti",
+        "awayTeam": "Iceland",
+        "homeLogo": "https://flagcdn.com/w80/ht.png",
+        "awayLogo": "https://flagcdn.com/w80/is.png",
+        "score": "1 - 1",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/HAIvsICE.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20067,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Russia",
+        "awayTeam": "Mali",
+        "homeLogo": "https://flagcdn.com/w80/ru.png",
+        "awayLogo": "https://flagcdn.com/w80/ml.png",
+        "score": "0 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/RUSvsMALI.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20068,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Hungary",
+        "awayTeam": "Greece",
+        "homeLogo": "https://flagcdn.com/w80/hu.png",
+        "awayLogo": "https://flagcdn.com/w80/gr.png",
+        "score": "0 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/HUNvsGRE.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20069,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Jordan",
+        "awayTeam": "Nigeria",
+        "homeLogo": "https://flagcdn.com/w80/jo.png",
+        "awayLogo": "https://flagcdn.com/w80/ng.png",
+        "score": "2 - 2",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/JORvsNIG.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20070,
+        "league": "INTERNATIONAL",
+        "homeTeam": "South Africa",
+        "awayTeam": "Panama",
+        "homeLogo": "https://flagcdn.com/w80/za.png",
+        "awayLogo": "https://flagcdn.com/w80/pa.png",
+        "score": "1 - 2",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/RSAvsPAN.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20071,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Morocco",
+        "awayTeam": "Paraguay",
+        "homeLogo": "https://flagcdn.com/w80/ma.png",
+        "awayLogo": "https://flagcdn.com/w80/py.png",
+        "score": "2 - 1",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/MORvsPAR.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20072,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Peru",
+        "awayTeam": "Honduras",
+        "homeLogo": "https://flagcdn.com/w80/pe.png",
+        "awayLogo": "https://flagcdn.com/w80/hn.png",
+        "score": "2 - 2",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/PERvsHON.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20073,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Algeria",
+        "awayTeam": "Uruguay",
+        "homeLogo": "https://flagcdn.com/w80/dz.png",
+        "awayLogo": "https://flagcdn.com/w80/uy.png",
+        "score": "0 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/ALGvsURU.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20074,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Ivory Coast",
+        "awayTeam": "Scotland",
+        "homeLogo": "https://flagcdn.com/w80/ci.png",
+        "awayLogo": "https://flagcdn.com/w80/gb-sct.png",
+        "score": "1 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/IVOvsSCO.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20075,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Austria",
+        "awayTeam": "Korea Republic",
+        "homeLogo": "https://flagcdn.com/w80/at.png",
+        "awayLogo": "https://flagcdn.com/w80/kr.png",
+        "score": "1 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/AUSvsKOR.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20076,
+        "league": "INTERNATIONAL",
+        "homeTeam": "England",
+        "awayTeam": "Japan",
+        "homeLogo": "https://flagcdn.com/w80/gb-eng.png",
+        "awayLogo": "https://flagcdn.com/w80/jp.png",
+        "score": "0 - 1",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/ENGvsJAP.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20077,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Netherlands",
+        "awayTeam": "Ecuador",
+        "homeLogo": "https://flagcdn.com/w80/nl.png",
+        "awayLogo": "https://flagcdn.com/w80/ec.png",
+        "score": "1 - 1",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/NEDvsECU.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20078,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Republic of Ireland",
+        "awayTeam": "North Macedonia",
+        "homeLogo": "https://flagcdn.com/w80/ie.png",
+        "awayLogo": "https://flagcdn.com/w80/mk.png",
+        "score": "0 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/IREvsMAC.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20079,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Slovakia",
+        "awayTeam": "Romania",
+        "homeLogo": "https://flagcdn.com/w80/sk.png",
+        "awayLogo": "https://flagcdn.com/w80/ro.png",
+        "score": "2 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/SLOvsROM.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20080,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Ukraine",
+        "awayTeam": "Albania",
+        "homeLogo": "https://flagcdn.com/w80/ua.png",
+        "awayLogo": "https://flagcdn.com/w80/al.png",
+        "score": "1 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/UKRvsALB.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20081,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Wales",
+        "awayTeam": "Northern Ireland",
+        "homeLogo": "https://flagcdn.com/w80/gb-wls.png",
+        "awayLogo": "https://flagcdn.com/w80/gb-nir.png",
+        "score": "1 - 1",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/WALvsNIR.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20082,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Senegal",
+        "awayTeam": "Gambia",
+        "homeLogo": "https://flagcdn.com/w80/sn.png",
+        "awayLogo": "https://flagcdn.com/w80/gm.png",
+        "score": "3 - 1",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/SENvsGAM.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20083,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Spain",
+        "awayTeam": "Egypt",
+        "homeLogo": "https://flagcdn.com/w80/es.png",
+        "awayLogo": "https://flagcdn.com/w80/eg.png",
+        "score": "0 - 0",
+        "date": "31 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/SPAvsEGY.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20048,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Cape Verde",
+        "awayTeam": "Finland",
+        "homeLogo": "https://flagcdn.com/w80/cv.png",
+        "awayLogo": "https://flagcdn.com/w80/fi.png",
+        "score": "1 - 1",
+        "date": "30 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/CAPvsFIN.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20049,
+        "league": "INTERNATIONAL",
+        "homeTeam": "New Zealand",
+        "awayTeam": "Chile",
+        "homeLogo": "https://flagcdn.com/w80/nz.png",
+        "awayLogo": "https://flagcdn.com/w80/cl.png",
+        "score": "4 - 1",
+        "date": "30 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/NZvsCHI.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20050,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Indonesia",
+        "awayTeam": "Bulgaria",
+        "homeLogo": "https://flagcdn.com/w80/id.png",
+        "awayLogo": "https://flagcdn.com/w80/bg.png",
+        "score": "0 - 1",
+        "date": "30 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/INDvsBUL.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20051,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Grenada",
+        "awayTeam": "Kenya",
+        "homeLogo": "https://flagcdn.com/w80/gd.png",
+        "awayLogo": "https://flagcdn.com/w80/ke.png",
+        "score": "0 - 3",
+        "date": "30 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/GREvsKEN.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20052,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Uzbekistan",
+        "awayTeam": "Venezuela",
+        "homeLogo": "https://flagcdn.com/w80/uz.png",
+        "awayLogo": "https://flagcdn.com/w80/ve.png",
+        "score": "0 - 0 (5-4 pens)",
+        "date": "30 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/UZBvsVEN.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20053,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Azerbaijan",
+        "awayTeam": "Sierra Leone",
+        "homeLogo": "https://flagcdn.com/w80/az.png",
+        "awayLogo": "https://flagcdn.com/w80/sl.png",
+        "score": "0 - 0 (9-8 pens)",
+        "date": "30 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/AZEvsSIE.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20054,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Cyprus",
+        "awayTeam": "Moldova",
+        "homeLogo": "https://flagcdn.com/w80/cy.png",
+        "awayLogo": "https://flagcdn.com/w80/md.png",
+        "score": "3 - 2",
+        "date": "30 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/CYPvsMOL.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20055,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Rwanda",
+        "awayTeam": "Estonia",
+        "homeLogo": "https://flagcdn.com/w80/rw.png",
+        "awayLogo": "https://flagcdn.com/w80/ee.png",
+        "score": "0 - 0",
+        "date": "30 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/RWAvsEST.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20056,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Germany",
+        "awayTeam": "Ghana",
+        "homeLogo": "https://flagcdn.com/w80/de.png",
+        "awayLogo": "https://flagcdn.com/w80/gh.png",
+        "score": "2 - 1",
+        "date": "30 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/GERvsGHA.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20041,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Haiti",
+        "awayTeam": "Tunisia",
+        "homeLogo": "https://flagcdn.com/w80/ht.png",
+        "awayLogo": "https://flagcdn.com/w80/tn.png",
+        "score": "0 - 1",
+        "date": "29 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/HAIvsTUN.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20042,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Mexico",
+        "awayTeam": "Portugal",
+        "homeLogo": "https://flagcdn.com/w80/mx.png",
+        "awayLogo": "https://flagcdn.com/w80/pt.png",
+        "score": "0 - 0",
+        "date": "29 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/MEXvsPOR.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20043,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Lithuania",
+        "awayTeam": "Georgia",
+        "homeLogo": "https://flagcdn.com/w80/lt.png",
+        "awayLogo": "https://flagcdn.com/w80/ge.png",
+        "score": "0 - 2",
+        "date": "29 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/LITvsGEO.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20044,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Macau",
+        "awayTeam": "Tanzania",
+        "homeLogo": "https://flagcdn.com/w80/mo.png",
+        "awayLogo": "https://flagcdn.com/w80/tz.png",
+        "score": "0 - 6",
+        "date": "29 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/MACvsTAN.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20045,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Armenia",
+        "awayTeam": "Belarus",
+        "homeLogo": "https://flagcdn.com/w80/am.png",
+        "awayLogo": "https://flagcdn.com/w80/by.png",
+        "score": "1 - 2",
+        "date": "29 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/ARMvsBEL.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20046,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Aruba",
+        "awayTeam": "Liechtenstein",
+        "homeLogo": "https://flagcdn.com/w80/aw.png",
+        "awayLogo": "https://flagcdn.com/w80/li.png",
+        "score": "4 - 1",
+        "date": "29 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/ARUvsLIE.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20047,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Colombia",
+        "awayTeam": "France",
+        "homeLogo": "https://flagcdn.com/w80/co.png",
+        "awayLogo": "https://flagcdn.com/w80/fr.png",
+        "score": "1 - 3",
+        "date": "29 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/COLvsFRA.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20033,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Zambia",
+        "awayTeam": "Malawi",
+        "homeLogo": "https://flagcdn.com/w80/zm.png",
+        "awayLogo": "https://flagcdn.com/w80/mw.png",
+        "score": "0 - 0",
+        "date": "28 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/ZAMvsMAL.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20034,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Korea Republic",
+        "awayTeam": "Ivory Coast",
+        "homeLogo": "https://flagcdn.com/w80/kr.png",
+        "awayLogo": "https://flagcdn.com/w80/ci.png",
+        "score": "0 - 4",
+        "date": "28 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/KORvsIVO.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20035,
+        "league": "INTERNATIONAL",
+        "homeTeam": "San Marino",
+        "awayTeam": "Faroe Islands",
+        "homeLogo": "https://flagcdn.com/w80/sm.png",
+        "awayLogo": "https://flagcdn.com/w80/fo.png",
+        "score": "1 - 2",
+        "date": "28 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/SMRvsFAR.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20036,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Senegal",
+        "awayTeam": "Peru",
+        "homeLogo": "https://flagcdn.com/w80/sn.png",
+        "awayLogo": "https://flagcdn.com/w80/pe.png",
+        "score": "2 - 0",
+        "date": "28 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/SENvsPER.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20037,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Canada",
+        "awayTeam": "Iceland",
+        "homeLogo": "https://flagcdn.com/w80/ca.png",
+        "awayLogo": "https://flagcdn.com/w80/is.png",
+        "score": "2 - 2",
+        "date": "28 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/CANvsICE.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20038,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Hungary",
+        "awayTeam": "Slovenia",
+        "homeLogo": "https://flagcdn.com/w80/hu.png",
+        "awayLogo": "https://flagcdn.com/w80/si.png",
+        "score": "1 - 0",
+        "date": "28 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/HUNvsSLO.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20039,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Scotland",
+        "awayTeam": "Japan",
+        "homeLogo": "https://flagcdn.com/w80/gb-sct.png",
+        "awayLogo": "https://flagcdn.com/w80/jp.png",
+        "score": "0 - 1",
+        "date": "28 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/SCOvsJAP.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20040,
+        "league": "INTERNATIONAL",
+        "homeTeam": "USA",
+        "awayTeam": "Belgium",
+        "homeLogo": "https://flagcdn.com/w80/us.png",
+        "awayLogo": "https://flagcdn.com/w80/be.png",
+        "score": "2 - 5",
+        "date": "28 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/USAvsBEL.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20009,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Chile",
+        "awayTeam": "Cape Verde",
+        "homeLogo": "https://flagcdn.com/w80/cl.png",
+        "awayLogo": "https://flagcdn.com/w80/cv.png",
+        "score": "4 - 2",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/CHIvsCAP.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20010,
+        "league": "INTERNATIONAL",
+        "homeTeam": "China",
+        "awayTeam": "Curaçao",
+        "homeLogo": "https://flagcdn.com/w80/cn.png",
+        "awayLogo": "https://flagcdn.com/w80/cw.png",
+        "score": "2 - 0",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/CHNvsCUR.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20011,
+        "league": "INTERNATIONAL",
+        "homeTeam": "New Zealand",
+        "awayTeam": "Finland",
+        "homeLogo": "https://flagcdn.com/w80/nz.png",
+        "awayLogo": "https://flagcdn.com/w80/fi.png",
+        "score": "0 - 2",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/NZvsFIN.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20012,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Solomon Islands",
+        "awayTeam": "Bulgaria",
+        "homeLogo": "https://flagcdn.com/w80/sb.png",
+        "awayLogo": "https://flagcdn.com/w80/bg.png",
+        "score": "2 - 10",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/SOLvsBUL.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20013,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Australia",
+        "awayTeam": "Cameroon",
+        "homeLogo": "https://flagcdn.com/w80/au.png",
+        "awayLogo": "https://flagcdn.com/w80/cm.png",
+        "score": "1 - 0",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/AUSvsCAM.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20014,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Venezuela",
+        "awayTeam": "Trinidad & Tobago",
+        "homeLogo": "https://flagcdn.com/w80/ve.png",
+        "awayLogo": "https://flagcdn.com/w80/tt.png",
+        "score": "4 - 1",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/VENvsTRI.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20015,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Iran",
+        "awayTeam": "Nigeria",
+        "homeLogo": "https://flagcdn.com/w80/ir.png",
+        "awayLogo": "https://flagcdn.com/w80/ng.png",
+        "score": "1 - 2",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/IRNvsNIG.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20016,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Indonesia",
+        "awayTeam": "St. Kitts & Nevis",
+        "homeLogo": "https://flagcdn.com/w80/id.png",
+        "awayLogo": "https://flagcdn.com/w80/kn.png",
+        "score": "4 - 0",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/INDvsSTK.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20017,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Azerbaijan",
+        "awayTeam": "St Lucia",
+        "homeLogo": "https://flagcdn.com/w80/az.png",
+        "awayLogo": "https://flagcdn.com/w80/lc.png",
+        "score": "6 - 1",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/AZEvsSTL.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20018,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Kenya",
+        "awayTeam": "Estonia",
+        "homeLogo": "https://flagcdn.com/w80/ke.png",
+        "awayLogo": "https://flagcdn.com/w80/ee.png",
+        "score": "0 - 1",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/KENvsEST.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20019,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Russia",
+        "awayTeam": "Nicaragua",
+        "homeLogo": "https://flagcdn.com/w80/ru.png",
+        "awayLogo": "https://flagcdn.com/w80/ni.png",
+        "score": "3 - 1",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/RUSvsNIC.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20020,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Austria",
+        "awayTeam": "Ghana",
+        "homeLogo": "https://flagcdn.com/w80/at.png",
+        "awayLogo": "https://flagcdn.com/w80/gh.png",
+        "score": "5 - 1",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/AUSvsGHA.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20021,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Montenegro",
+        "awayTeam": "Andorra",
+        "homeLogo": "https://flagcdn.com/w80/me.png",
+        "awayLogo": "https://flagcdn.com/w80/ad.png",
+        "score": "2 - 0",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/MONvsAND.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20022,
+        "league": "INTERNATIONAL",
+        "homeTeam": "South Africa",
+        "awayTeam": "Panama",
+        "homeLogo": "https://flagcdn.com/w80/za.png",
+        "awayLogo": "https://flagcdn.com/w80/pa.png",
+        "score": "1 - 1",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/RSAvsPAN.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20023,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Jordan",
+        "awayTeam": "Costa Rica",
+        "homeLogo": "https://flagcdn.com/w80/jo.png",
+        "awayLogo": "https://flagcdn.com/w80/cr.png",
+        "score": "2 - 2",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/JORvsCOS.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20024,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Saudi Arabia",
+        "awayTeam": "Egypt",
+        "homeLogo": "https://flagcdn.com/w80/sa.png",
+        "awayLogo": "https://flagcdn.com/w80/eg.png",
+        "score": "0 - 4",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/SAUvsEGY.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20025,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Greece",
+        "awayTeam": "Paraguay",
+        "homeLogo": "https://flagcdn.com/w80/gr.png",
+        "awayLogo": "https://flagcdn.com/w80/py.png",
+        "score": "0 - 1",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/GREvsPAR.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20026,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Algeria",
+        "awayTeam": "Guatemala",
+        "homeLogo": "https://flagcdn.com/w80/dz.png",
+        "awayLogo": "https://flagcdn.com/w80/gt.png",
+        "score": "7 - 0",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/ALGvsGUA.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20027,
+        "league": "INTERNATIONAL",
+        "homeTeam": "England",
+        "awayTeam": "Uruguay",
+        "homeLogo": "https://flagcdn.com/w80/gb-eng.png",
+        "awayLogo": "https://flagcdn.com/w80/uy.png",
+        "score": "1 - 1",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/ENGvsURU.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20028,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Netherlands",
+        "awayTeam": "Norway",
+        "homeLogo": "https://flagcdn.com/w80/nl.png",
+        "awayLogo": "https://flagcdn.com/w80/no.png",
+        "score": "2 - 1",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/NEDvsNOR.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20029,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Switzerland",
+        "awayTeam": "Germany",
+        "homeLogo": "https://flagcdn.com/w80/ch.png",
+        "awayLogo": "https://flagcdn.com/w80/de.png",
+        "score": "3 - 4",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/SUIvsGER.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20030,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Spain",
+        "awayTeam": "Serbia",
+        "homeLogo": "https://flagcdn.com/w80/es.png",
+        "awayLogo": "https://flagcdn.com/w80/rs.png",
+        "score": "3 - 0",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/SPAvsSER.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20031,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Morocco",
+        "awayTeam": "Ecuador",
+        "homeLogo": "https://flagcdn.com/w80/ma.png",
+        "awayLogo": "https://flagcdn.com/w80/ec.png",
+        "score": "1 - 1",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/MORvsECU.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20032,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Argentina",
+        "awayTeam": "Mauritania",
+        "homeLogo": "https://flagcdn.com/w80/ar.png",
+        "awayLogo": "https://flagcdn.com/w80/mr.png",
+        "score": "2 - 1",
+        "date": "27 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/ARGvsMAU.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20002,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Kazakhstan",
+        "awayTeam": "Namibia",
+        "homeLogo": "https://flagcdn.com/w80/kz.png",
+        "awayLogo": "https://flagcdn.com/w80/na.png",
+        "score": "2 - 0",
+        "date": "26 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/KAZvsNAM.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20003,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Tanzania",
+        "awayTeam": "Liechtenstein",
+        "homeLogo": "https://flagcdn.com/w80/tz.png",
+        "awayLogo": "https://flagcdn.com/w80/li.png",
+        "score": "0 - 1",
+        "date": "26 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/TANvsLIE.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20004,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Moldova",
+        "awayTeam": "Lithuania",
+        "homeLogo": "https://flagcdn.com/w80/md.png",
+        "awayLogo": "https://flagcdn.com/w80/lt.png",
+        "score": "0 - 2",
+        "date": "26 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/MOLvsLIT.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20005,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Cyprus",
+        "awayTeam": "Belarus",
+        "homeLogo": "https://flagcdn.com/w80/cy.png",
+        "awayLogo": "https://flagcdn.com/w80/by.png",
+        "score": "0 - 1",
+        "date": "26 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/CYPvsBEL.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20006,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Georgia",
+        "awayTeam": "Israel",
+        "homeLogo": "https://flagcdn.com/w80/ge.png",
+        "awayLogo": "https://flagcdn.com/w80/il.png",
+        "score": "2 - 2",
+        "date": "26 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/GEOvsISR.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20007,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Brazil",
+        "awayTeam": "France",
+        "homeLogo": "https://flagcdn.com/w80/br.png",
+        "awayLogo": "https://flagcdn.com/w80/fr.png",
+        "score": "1 - 2",
+        "date": "26 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/BRAvsFRA.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
+        "id": 20008,
+        "league": "INTERNATIONAL",
+        "homeTeam": "Colombia",
+        "awayTeam": "Croatia",
+        "homeLogo": "https://flagcdn.com/w80/co.png",
+        "awayLogo": "https://flagcdn.com/w80/hr.png",
+        "score": "1 - 2",
+        "date": "26 March 2026 (Friendly)",
+        "duration": "FT",
+        "matchday": "Friendly",
+        "leg": "Friendly",
+        "thumbnail": "images/COLvsCRO.png",
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
+    },
+    {
         "id": 12109,
         "league": "SERIE A",
         "homeTeam": "Fiorentina",
@@ -12,13 +1242,7 @@
         "matchday": 30,
         "thumbnail": "images/FvsI.jpg",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [44, 56],
-            "shots": [11, 18],
-            "shotsOnTarget": [4, 9],
-            "corners": [5, 8],
-            "fouls": [14, 11]
-        }
+        "stats": { "possession": [44, 56], "shots": [11, 18], "shotsOnTarget": [4, 9], "corners": [5, 8], "fouls": [14, 11] }
     },
     {
         "id": 13107,
@@ -33,13 +1257,7 @@
         "matchday": 27,
         "thumbnail": "images/AvsS.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [45, 55],
-            "shots": [13, 18],
-            "shotsOnTarget": [5, 8],
-            "corners": [6, 7],
-            "fouls": [14, 13]
-        }
+        "stats": { "possession": [45, 55], "shots": [13, 18], "shotsOnTarget": [5, 8], "corners": [6, 7], "fouls": [14, 13] }
     },
     {
         "id": 12106,
@@ -54,13 +1272,7 @@
         "matchday": 30,
         "thumbnail": "images/AvsV.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [65, 35],
-            "shots": [22, 6],
-            "shotsOnTarget": [11, 2],
-            "corners": [10, 2],
-            "fouls": [9, 12]
-        }
+        "stats": { "possession": [65, 35], "shots": [22, 6], "shotsOnTarget": [11, 2], "corners": [10, 2], "fouls": [9, 12] }
     },
     {
         "id": 14104,
@@ -75,13 +1287,7 @@
         "matchday": 27,
         "thumbnail": "images/LvsM.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [50, 50],
-            "shots": [15, 16],
-            "shotsOnTarget": [6, 7],
-            "corners": [5, 6],
-            "fouls": [14, 15]
-        }
+        "stats": { "possession": [50, 50], "shots": [15, 16], "shotsOnTarget": [6, 7], "corners": [5, 6], "fouls": [14, 15] }
     },
     {
         "id": 7,
@@ -95,13 +1301,7 @@
         "duration": "11:10",
         "matchday": 19,
         "thumbnail": "images/TvsN.png",
-        "stats": {
-            "possession": [48, 52],
-            "shots": [14, 16],
-            "shotsOnTarget": [6, 6],
-            "corners": [3, 7],
-            "fouls": [14, 12]
-        }
+        "stats": { "possession": [48, 52], "shots": [14, 16], "shotsOnTarget": [6, 6], "corners": [3, 7], "fouls": [14, 12] }
     },
     {
         "id": 6,
@@ -115,13 +1315,7 @@
         "duration": "11:10",
         "matchday": 19,
         "thumbnail": "images/AvsW.png",
-        "stats": {
-            "possession": [48, 52],
-            "shots": [14, 16],
-            "shotsOnTarget": [6, 6],
-            "corners": [3, 7],
-            "fouls": [14, 12]
-        }
+        "stats": { "possession": [48, 52], "shots": [14, 16], "shotsOnTarget": [6, 6], "corners": [3, 7], "fouls": [14, 12] }
     },
     {
         "id": 5,
@@ -135,13 +1329,7 @@
         "duration": "11:10",
         "matchday": 19,
         "thumbnail": "images/NvsS.png",
-        "stats": {
-            "possession": [48, 52],
-            "shots": [14, 16],
-            "shotsOnTarget": [6, 6],
-            "corners": [3, 7],
-            "fouls": [14, 12]
-        }
+        "stats": { "possession": [48, 52], "shots": [14, 16], "shotsOnTarget": [6, 6], "corners": [3, 7], "fouls": [14, 12] }
     },
     {
         "id": 12108,
@@ -156,13 +1344,7 @@
         "matchday": 30,
         "thumbnail": "images/RvsL.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [60, 40],
-            "shots": [17, 8],
-            "shotsOnTarget": [7, 2],
-            "corners": [9, 3],
-            "fouls": [11, 13]
-        }
+        "stats": { "possession": [60, 40], "shots": [17, 8], "shotsOnTarget": [7, 2], "corners": [9, 3], "fouls": [11, 13] }
     },
     {
         "id": 14108,
@@ -177,13 +1359,7 @@
         "matchday": 27,
         "thumbnail": "images/NavsSt.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [49, 51],
-            "shots": [12, 12],
-            "shotsOnTarget": [4, 4],
-            "corners": [5, 6],
-            "fouls": [14, 16]
-        }
+        "stats": { "possession": [49, 51], "shots": [12, 12], "shotsOnTarget": [4, 4], "corners": [5, 6], "fouls": [14, 16] }
     },
     {
         "id": 12105,
@@ -198,13 +1374,7 @@
         "matchday": 30,
         "thumbnail": "images/CvsP.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [49, 51],
-            "shots": [11, 12],
-            "shotsOnTarget": [4, 5],
-            "corners": [5, 6],
-            "fouls": [13, 14]
-        }
+        "stats": { "possession": [49, 51], "shots": [11, 12], "shotsOnTarget": [4, 5], "corners": [5, 6], "fouls": [13, 14] }
     },
     {
         "id": 14105,
@@ -219,13 +1389,7 @@
         "matchday": 27,
         "thumbnail": "images/MvsLi.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [54, 46],
-            "shots": [13, 11],
-            "shotsOnTarget": [5, 4],
-            "corners": [7, 5],
-            "fouls": [12, 14]
-        }
+        "stats": { "possession": [54, 46], "shots": [13, 11], "shotsOnTarget": [5, 4], "corners": [7, 5], "fouls": [12, 14] }
     },
     {
         "id": 14107,
@@ -240,13 +1404,7 @@
         "matchday": 27,
         "thumbnail": "images/PFCvsLH.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [48, 52],
-            "shots": [10, 9],
-            "shotsOnTarget": [4, 3],
-            "corners": [4, 5],
-            "fouls": [15, 12]
-        }
+        "stats": { "possession": [48, 52], "shots": [10, 9], "shotsOnTarget": [4, 3], "corners": [4, 5], "fouls": [15, 12] }
     },
     {
         "id": 13105,
@@ -261,13 +1419,7 @@
         "matchday": 27,
         "thumbnail": "images/MvsEF.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [44, 56],
-            "shots": [9, 14],
-            "shotsOnTarget": [2, 6],
-            "corners": [3, 7],
-            "fouls": [16, 12]
-        }
+        "stats": { "possession": [44, 56], "shots": [9, 14], "shotsOnTarget": [2, 6], "corners": [3, 7], "fouls": [16, 12] }
     },
     {
         "id": 12107,
@@ -282,13 +1434,7 @@
         "matchday": 30,
         "thumbnail": "images/BovsL.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [47, 53],
-            "shots": [10, 13],
-            "shotsOnTarget": [3, 6],
-            "corners": [4, 7],
-            "fouls": [15, 12]
-        }
+        "stats": { "possession": [47, 53], "shots": [10, 13], "shotsOnTarget": [3, 6], "corners": [4, 7], "fouls": [15, 12] }
     },
     {
         "id": 1222,
@@ -303,13 +1449,7 @@
         "matchday": 25,
         "thumbnail": "images/BvsRv.png",
         "videoUrl": "videos/LvsB.mp4",
-        "stats": {
-            "possession": [50, 50],
-            "shots": [10, 11],
-            "shotsOnTarget": [3, 2],
-            "corners": [5, 4],
-            "fouls": [18, 20]
-        }
+        "stats": { "possession": [50, 50], "shots": [10, 11], "shotsOnTarget": [3, 2], "corners": [5, 4], "fouls": [18, 20] }
     },
     {
         "id": 113,
@@ -324,13 +1464,7 @@
         "matchday": 25,
         "thumbnail": "images/CvvsDa.png",
         "videoUrl": "videos/LvsB.mp4",
-        "stats": {
-            "possession": [50, 50],
-            "shots": [10, 11],
-            "shotsOnTarget": [3, 2],
-            "corners": [5, 4],
-            "fouls": [18, 20]
-        }
+        "stats": { "possession": [50, 50], "shots": [10, 11], "shotsOnTarget": [3, 2], "corners": [5, 4], "fouls": [18, 20] }
     },
     {
         "id": 1139,
@@ -345,13 +1479,7 @@
         "matchday": 25,
         "thumbnail": "images/AbvsRb.png",
         "videoUrl": "videos/LvsB.mp4",
-        "stats": {
-            "possession": [50, 50],
-            "shots": [10, 11],
-            "shotsOnTarget": [3, 2],
-            "corners": [5, 4],
-            "fouls": [18, 20]
-        }
+        "stats": { "possession": [50, 50], "shots": [10, 11], "shotsOnTarget": [3, 2], "corners": [5, 4], "fouls": [18, 20] }
     },
     {
         "id": 11339,
@@ -366,13 +1494,7 @@
         "matchday": 25,
         "thumbnail": "images/RmvsAm.png",
         "videoUrl": "videos/LvsB.mp4",
-        "stats": {
-            "possession": [50, 50],
-            "shots": [10, 11],
-            "shotsOnTarget": [3, 2],
-            "corners": [5, 4],
-            "fouls": [18, 20]
-        }
+        "stats": { "possession": [50, 50], "shots": [10, 11], "shotsOnTarget": [3, 2], "corners": [5, 4], "fouls": [18, 20] }
     },
     {
         "id": 13106,
@@ -387,13 +1509,7 @@
         "matchday": 27,
         "thumbnail": "images/SPvsF.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [42, 58],
-            "shots": [10, 15],
-            "shotsOnTarget": [4, 5],
-            "corners": [4, 8],
-            "fouls": [13, 11]
-        }
+        "stats": { "possession": [42, 58], "shots": [10, 15], "shotsOnTarget": [4, 5], "corners": [4, 8], "fouls": [13, 11] }
     },
     {
         "id": 14106,
@@ -408,13 +1524,7 @@
         "matchday": 27,
         "thumbnail": "images/RvsMe.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [64, 36],
-            "shots": [18, 5],
-            "shotsOnTarget": [9, 1],
-            "corners": [8, 2],
-            "fouls": [10, 13]
-        }
+        "stats": { "possession": [64, 36], "shots": [18, 5], "shotsOnTarget": [9, 1], "corners": [8, 2], "fouls": [10, 13] }
     },
     {
         "id": 13104,
@@ -429,13 +1539,7 @@
         "matchday": 27,
         "thumbnail": "images/BDvsHSV.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [64, 36],
-            "shots": [22, 7],
-            "shotsOnTarget": [11, 2],
-            "corners": [10, 3],
-            "fouls": [10, 15]
-        }
+        "stats": { "possession": [64, 36], "shots": [22, 7], "shotsOnTarget": [11, 2], "corners": [10, 3], "fouls": [10, 15] }
     },
     {
         "id": 3,
@@ -449,13 +1553,7 @@
         "duration": "12:20",
         "matchday": "Semi Final",
         "thumbnail": "images/FvsB.webp",
-        "stats": {
-            "possession": [51, 49],
-            "shots": [18, 15],
-            "shotsOnTarget": [8, 7],
-            "corners": [6, 5],
-            "fouls": [12, 11]
-        }
+        "stats": { "possession": [51, 49], "shots": [18, 15], "shotsOnTarget": [8, 7], "corners": [6, 5], "fouls": [12, 11] }
     },
     {
         "id": 14103,
@@ -470,13 +1568,7 @@
         "matchday": 27,
         "thumbnail": "images/NvsPSG.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [38, 62],
-            "shots": [10, 19],
-            "shotsOnTarget": [4, 9],
-            "corners": [4, 8],
-            "fouls": [13, 9]
-        }
+        "stats": { "possession": [38, 62], "shots": [10, 19], "shotsOnTarget": [4, 9], "corners": [4, 8], "fouls": [13, 9] }
     },
     {
         "id": 13103,
@@ -491,13 +1583,7 @@
         "matchday": 27,
         "thumbnail": "images/WvsWB.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [51, 49],
-            "shots": [14, 15],
-            "shotsOnTarget": [6, 6],
-            "corners": [7, 7],
-            "fouls": [12, 13]
-        }
+        "stats": { "possession": [51, 49], "shots": [14, 15], "shotsOnTarget": [6, 6], "corners": [7, 7], "fouls": [12, 13] }
     },
     {
         "id": 4,
@@ -511,13 +1597,7 @@
         "duration": "10:45",
         "matchday": 24,
         "thumbnail": "images/BvsL.png",
-        "stats": {
-            "possession": [45, 55],
-            "shots": [12, 14],
-            "shotsOnTarget": [5, 4],
-            "corners": [4, 8],
-            "fouls": [10, 7]
-        }
+        "stats": { "possession": [45, 55], "shots": [12, 14], "shotsOnTarget": [5, 4], "corners": [4, 8], "fouls": [10, 7] }
     },
     {
         "id": 13100,
@@ -532,13 +1612,7 @@
         "matchday": 27,
         "thumbnail": "images/BvsU.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [68, 32],
-            "shots": [19, 5],
-            "shotsOnTarget": [9, 1],
-            "corners": [8, 2],
-            "fouls": [9, 11]
-        }
+        "stats": { "possession": [68, 32], "shots": [19, 5], "shotsOnTarget": [9, 1], "corners": [8, 2], "fouls": [9, 11] }
     },
     {
         "id": 12102,
@@ -553,13 +1627,7 @@
         "matchday": 30,
         "thumbnail": "images/PvsCr.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [55, 45],
-            "shots": [14, 8],
-            "shotsOnTarget": [6, 2],
-            "corners": [7, 3],
-            "fouls": [11, 15]
-        }
+        "stats": { "possession": [55, 45], "shots": [14, 8], "shotsOnTarget": [6, 2], "corners": [7, 3], "fouls": [11, 15] }
     },
     {
         "id": 12104,
@@ -574,13 +1642,7 @@
         "matchday": 30,
         "thumbnail": "images/JvsS.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [58, 42],
-            "shots": [15, 9],
-            "shotsOnTarget": [6, 3],
-            "corners": [8, 4],
-            "fouls": [12, 11]
-        }
+        "stats": { "possession": [58, 42], "shots": [15, 9], "shotsOnTarget": [6, 3], "corners": [8, 4], "fouls": [12, 11] }
     },
     {
         "id": 13101,
@@ -595,13 +1657,7 @@
         "matchday": 27,
         "thumbnail": "images/HvsBL.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [38, 62],
-            "shots": [8, 17],
-            "shotsOnTarget": [3, 7],
-            "corners": [4, 9],
-            "fouls": [15, 12]
-        }
+        "stats": { "possession": [38, 62], "shots": [8, 17], "shotsOnTarget": [3, 7], "corners": [4, 9], "fouls": [15, 12] }
     },
     {
         "id": 14102,
@@ -616,13 +1672,7 @@
         "matchday": 27,
         "thumbnail": "images/AvsB.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [46, 54],
-            "shots": [9, 14],
-            "shotsOnTarget": [2, 6],
-            "corners": [3, 7],
-            "fouls": [15, 11]
-        }
+        "stats": { "possession": [46, 54], "shots": [9, 14], "shotsOnTarget": [2, 6], "corners": [3, 7], "fouls": [15, 11] }
     },
     {
         "id": 2,
@@ -636,13 +1686,7 @@
         "duration": "09:15",
         "matchday": 22,
         "thumbnail": "images/EvsC.png",
-        "stats": {
-            "possession": [65, 35],
-            "shots": [22, 4],
-            "shotsOnTarget": [11, 1],
-            "corners": [9, 2],
-            "fouls": [8, 15]
-        }
+        "stats": { "possession": [65, 35], "shots": [22, 4], "shotsOnTarget": [11, 1], "corners": [9, 2], "fouls": [8, 15] }
     },
     {
         "id": 1,
@@ -657,13 +1701,7 @@
         "matchday": 25,
         "thumbnail": "images/LvsB.png",
         "videoUrl": "videos/LvsB.mp4",
-        "stats": {
-            "possession": [50, 50],
-            "shots": [10, 11],
-            "shotsOnTarget": [3, 2],
-            "corners": [5, 4],
-            "fouls": [18, 20]
-        }
+        "stats": { "possession": [50, 50], "shots": [10, 11], "shotsOnTarget": [3, 2], "corners": [5, 4], "fouls": [18, 20] }
     },
     {
         "id": 1232,
@@ -678,13 +1716,7 @@
         "matchday": 25,
         "thumbnail": "images/LvsRo.png",
         "videoUrl": "videos/LvsB.mp4",
-        "stats": {
-            "possession": [50, 50],
-            "shots": [10, 11],
-            "shotsOnTarget": [3, 2],
-            "corners": [5, 4],
-            "fouls": [18, 20]
-        }
+        "stats": { "possession": [50, 50], "shots": [10, 11], "shotsOnTarget": [3, 2], "corners": [5, 4], "fouls": [18, 20] }
     },
     {
         "id": 123,
@@ -699,13 +1731,7 @@
         "matchday": 25,
         "thumbnail": "images/OvsG.png",
         "videoUrl": "videos/LvsB.mp4",
-        "stats": {
-            "possession": [50, 50],
-            "shots": [10, 11],
-            "shotsOnTarget": [3, 2],
-            "corners": [5, 4],
-            "fouls": [18, 20]
-        }
+        "stats": { "possession": [50, 50], "shots": [10, 11], "shotsOnTarget": [3, 2], "corners": [5, 4], "fouls": [18, 20] }
     },
     {
         "id": 122,
@@ -720,13 +1746,7 @@
         "matchday": 25,
         "thumbnail": "images/SvsV.png",
         "videoUrl": "videos/LvsB.mp4",
-        "stats": {
-            "possession": [50, 50],
-            "shots": [10, 11],
-            "shotsOnTarget": [3, 2],
-            "corners": [5, 4],
-            "fouls": [18, 20]
-        }
+        "stats": { "possession": [50, 50], "shots": [10, 11], "shotsOnTarget": [3, 2], "corners": [5, 4], "fouls": [18, 20] }
     },
     {
         "id": 12,
@@ -741,13 +1761,7 @@
         "matchday": 25,
         "thumbnail": "images/EvsG.png",
         "videoUrl": "videos/LvsB.mp4",
-        "stats": {
-            "possession": [50, 50],
-            "shots": [10, 11],
-            "shotsOnTarget": [3, 2],
-            "corners": [5, 4],
-            "fouls": [18, 20]
-        }
+        "stats": { "possession": [50, 50], "shots": [10, 11], "shotsOnTarget": [3, 2], "corners": [5, 4], "fouls": [18, 20] }
     },
     {
         "id": 11,
@@ -762,13 +1776,7 @@
         "matchday": 25,
         "thumbnail": "images/EvsM.png",
         "videoUrl": "videos/LvsB.mp4",
-        "stats": {
-            "possession": [50, 50],
-            "shots": [10, 11],
-            "shotsOnTarget": [3, 2],
-            "corners": [5, 4],
-            "fouls": [18, 20]
-        }
+        "stats": { "possession": [50, 50], "shots": [10, 11], "shotsOnTarget": [3, 2], "corners": [5, 4], "fouls": [18, 20] }
     },
     {
         "id": 14101,
@@ -783,13 +1791,7 @@
         "matchday": 27,
         "thumbnail": "images/TvsLo.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [52, 48],
-            "shots": [11, 10],
-            "shotsOnTarget": [4, 4],
-            "corners": [6, 4],
-            "fouls": [12, 13]
-        }
+        "stats": { "possession": [52, 48], "shots": [11, 10], "shotsOnTarget": [4, 4], "corners": [6, 4], "fouls": [12, 13] }
     },
     {
         "id": 13102,
@@ -804,13 +1806,7 @@
         "matchday": 27,
         "thumbnail": "images/KvsMG.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [47, 53],
-            "shots": [12, 13],
-            "shotsOnTarget": [4, 5],
-            "corners": [5, 6],
-            "fouls": [16, 14]
-        }
+        "stats": { "possession": [47, 53], "shots": [12, 13], "shotsOnTarget": [4, 5], "corners": [5, 6], "fouls": [16, 14] }
     },
     {
         "id": 12100,
@@ -825,13 +1821,7 @@
         "matchday": 30,
         "thumbnail": "images/CvsN.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [42, 58],
-            "shots": [8, 16],
-            "shotsOnTarget": [3, 7],
-            "corners": [4, 9],
-            "fouls": [14, 10]
-        }
+        "stats": { "possession": [42, 58], "shots": [8, 16], "shotsOnTarget": [3, 7], "corners": [4, 9], "fouls": [14, 10] }
     },
     {
         "id": 14100,
@@ -846,13 +1836,7 @@
         "matchday": 27,
         "thumbnail": "images/LvsA.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [58, 42],
-            "shots": [14, 7],
-            "shotsOnTarget": [6, 2],
-            "corners": [5, 3],
-            "fouls": [11, 14]
-        }
+        "stats": { "possession": [58, 42], "shots": [14, 7], "shotsOnTarget": [6, 2], "corners": [5, 3], "fouls": [11, 14] }
     },
     {
         "id": 12101,
@@ -867,13 +1851,7 @@
         "matchday": 30,
         "thumbnail": "images/GvsU.png",
         "videoUrl": "videos/highlights.mp4",
-        "stats": {
-            "possession": [50, 50],
-            "shots": [12, 11],
-            "shotsOnTarget": [4, 4],
-            "corners": [5, 5],
-            "fouls": [12, 13]
-        }
+        "stats": { "possession": [50, 50], "shots": [12, 11], "shotsOnTarget": [4, 4], "corners": [5, 5], "fouls": [12, 13] }
     },
     {
         "id": 20016,
@@ -888,13 +1866,7 @@
         "matchday": "Round of 16",
         "leg": "2nd Leg",
         "thumbnail": "images/SCPvsBG.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20015,
@@ -902,20 +1874,14 @@
         "homeTeam": "Liverpool",
         "awayTeam": "Galatasaray",
         "homeLogo": "https://media.api-sports.io/football/teams/40.png",
-        "awayLogo": "images/Gala.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/611.png",
         "score": "4 - 0",
         "date": "18 March 2026 (2nd Leg)",
         "duration": "21:00",
         "matchday": "Round of 16",
         "leg": "2nd Leg",
         "thumbnail": "images/LvsG.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20014,
@@ -930,13 +1896,7 @@
         "matchday": "Round of 16",
         "leg": "2nd Leg",
         "thumbnail": "images/AvsBL.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20013,
@@ -951,34 +1911,22 @@
         "matchday": "Round of 16",
         "leg": "2nd Leg",
         "thumbnail": "images/BMvsA.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20012,
         "league": "CHAMPIONS LEAGUE",
         "homeTeam": "Tottenham",
         "awayTeam": "Atlético Madrid",
-        "homeLogo": "https://media.api-sports.io/football/teams/530.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/47.png",
+        "homeLogo": "https://media.api-sports.io/football/teams/47.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/530.png",
         "score": "2 - 3",
         "date": "17 March 2026 (2nd Leg)    ",
         "duration": "21:00",
         "matchday": "Round of 16",
         "leg": "2nd Leg",
         "thumbnail": "https://raw.githubusercontent.com/Chucky-Funds/FC/refs/heads/main/watchFC/images/AMvsT.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20011,
@@ -993,13 +1941,7 @@
         "matchday": "Round of 16",
         "leg": "2nd Leg",
         "thumbnail": "images/BvsN.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20010,
@@ -1014,13 +1956,7 @@
         "matchday": "Round of 16",
         "leg": "2nd Leg",
         "thumbnail": "images/PvsC.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20009,
@@ -1035,13 +1971,7 @@
         "matchday": "Round of 16",
         "leg": "2nd Leg",
         "thumbnail": "images/RvsM.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20008,
@@ -1056,20 +1986,14 @@
         "matchday": "Round of 16",
         "leg": "1st Leg",
         "thumbnail": "images/SCPvsBG.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20007,
         "league": "CHAMPIONS LEAGUE",
         "homeTeam": "Galatasaray",
         "awayTeam": "Liverpool",
-        "homeLogo": "images/Bodo.png",
+        "homeLogo": "https://media.api-sports.io/football/teams/611.png",
         "awayLogo": "https://media.api-sports.io/football/teams/40.png",
         "score": "1 - 0",
         "date": "11 March 2026 (1st Leg)",
@@ -1077,13 +2001,7 @@
         "matchday": "Round of 16",
         "leg": "1st Leg",
         "thumbnail": "images/LvsG.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20006,
@@ -1098,13 +2016,7 @@
         "matchday": "Round of 16",
         "leg": "1st Leg",
         "thumbnail": "images/AvsBL.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20005,
@@ -1119,13 +2031,7 @@
         "matchday": "Round of 16",
         "leg": "1st Leg",
         "thumbnail": "images/BMvsA.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20004,
@@ -1140,13 +2046,7 @@
         "matchday": "Round of 16",
         "leg": "1st Leg",
         "thumbnail": "images/AMvsT.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20003,
@@ -1161,13 +2061,7 @@
         "matchday": "Round of 16",
         "leg": "1st Leg",
         "thumbnail": "images/BvsN.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20002,
@@ -1182,13 +2076,7 @@
         "matchday": "Round of 16",
         "leg": "1st Leg",
         "thumbnail": "images/PvsC.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     },
     {
         "id": 20001,
@@ -1203,1734 +2091,6 @@
         "matchday": "Round of 16",
         "leg": "1st Leg",
         "thumbnail": "images/RvsM.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20002,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Kazakhstan",
-        "awayTeam": "Namibia",
-        "homeLogo": "https://media.api-sports.io/football/teams/kazakhstan.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/namibia.png",
-        "score": "2 - 0",
-        "date": "26 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/KAZvsNAM.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20003,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Tanzania",
-        "awayTeam": "Liechtenstein",
-        "homeLogo": "https://media.api-sports.io/football/teams/tanzania.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/liechtenstein.png",
-        "score": "0 - 1",
-        "date": "26 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/TANvsLIE.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20004,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Moldova",
-        "awayTeam": "Lithuania",
-        "homeLogo": "https://media.api-sports.io/football/teams/moldova.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/lithuania.png",
-        "score": "0 - 2",
-        "date": "26 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/MOLvsLIT.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20005,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Cyprus",
-        "awayTeam": "Belarus",
-        "homeLogo": "https://media.api-sports.io/football/teams/cyprus.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/belarus.png",
-        "score": "0 - 1",
-        "date": "26 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/CYPvsBEL.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20006,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Georgia",
-        "awayTeam": "Israel",
-        "homeLogo": "https://media.api-sports.io/football/teams/georgia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/israel.png",
-        "score": "2 - 2",
-        "date": "26 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/GEOvsISR.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20007,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Brazil",
-        "awayTeam": "France",
-        "homeLogo": "https://media.api-sports.io/football/teams/brazil.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/france.png",
-        "score": "1 - 2",
-        "date": "26 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/BRAvsFRA.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20008,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Colombia",
-        "awayTeam": "Croatia",
-        "homeLogo": "https://media.api-sports.io/football/teams/colombia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/croatia.png",
-        "score": "1 - 2",
-        "date": "26 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/COLvsCRO.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20009,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Chile",
-        "awayTeam": "Cape Verde",
-        "homeLogo": "https://media.api-sports.io/football/teams/chile.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/capeverde.png",
-        "score": "4 - 2",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/CHIvsCAP.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20010,
-        "league": "INTERNATIONAL",
-        "homeTeam": "China",
-        "awayTeam": "Curaçao",
-        "homeLogo": "https://media.api-sports.io/football/teams/china.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/curacao.png",
-        "score": "2 - 0",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/CHNvsCUR.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20011,
-        "league": "INTERNATIONAL",
-        "homeTeam": "New Zealand",
-        "awayTeam": "Finland",
-        "homeLogo": "https://media.api-sports.io/football/teams/newzealand.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/finland.png",
-        "score": "0 - 2",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/NZvsFIN.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20012,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Solomon Islands",
-        "awayTeam": "Bulgaria",
-        "homeLogo": "https://media.api-sports.io/football/teams/solomon.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/bulgaria.png",
-        "score": "2 - 10",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/SOLvsBUL.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20013,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Australia",
-        "awayTeam": "Cameroon",
-        "homeLogo": "https://media.api-sports.io/football/teams/australia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/cameroon.png",
-        "score": "1 - 0",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/AUSvsCAM.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20014,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Venezuela",
-        "awayTeam": "Trinidad & Tobago",
-        "homeLogo": "https://media.api-sports.io/football/teams/venezuela.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/trinidad.png",
-        "score": "4 - 1",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/VENvsTRI.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20015,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Iran",
-        "awayTeam": "Nigeria",
-        "homeLogo": "https://media.api-sports.io/football/teams/iran.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/nigeria.png",
-        "score": "1 - 2",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/IRNvsNIG.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20016,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Indonesia",
-        "awayTeam": "St. Kitts & Nevis",
-        "homeLogo": "https://media.api-sports.io/football/teams/indonesia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/stkitts.png",
-        "score": "4 - 0",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/INDvsSTK.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20017,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Azerbaijan",
-        "awayTeam": "St Lucia",
-        "homeLogo": "https://media.api-sports.io/football/teams/azerbaijan.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/stlucia.png",
-        "score": "6 - 1",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/AZEvsSTL.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20018,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Kenya",
-        "awayTeam": "Estonia",
-        "homeLogo": "https://media.api-sports.io/football/teams/kenya.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/estonia.png",
-        "score": "0 - 1",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/KENvsEST.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20019,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Russia",
-        "awayTeam": "Nicaragua",
-        "homeLogo": "https://media.api-sports.io/football/teams/russia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/nicaragua.png",
-        "score": "3 - 1",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/RUSvsNIC.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20020,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Austria",
-        "awayTeam": "Ghana",
-        "homeLogo": "https://media.api-sports.io/football/teams/austria.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/ghana.png",
-        "score": "5 - 1",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/AUSvsGHA.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20021,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Montenegro",
-        "awayTeam": "Andorra",
-        "homeLogo": "https://media.api-sports.io/football/teams/montenegro.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/andorra.png",
-        "score": "2 - 0",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/MONvsAND.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20022,
-        "league": "INTERNATIONAL",
-        "homeTeam": "South Africa",
-        "awayTeam": "Panama",
-        "homeLogo": "https://media.api-sports.io/football/teams/safrica.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/panama.png",
-        "score": "1 - 1",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/RSAvsPAN.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20023,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Jordan",
-        "awayTeam": "Costa Rica",
-        "homeLogo": "https://media.api-sports.io/football/teams/jordan.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/costarica.png",
-        "score": "2 - 2",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/JORvsCOS.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20024,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Saudi Arabia",
-        "awayTeam": "Egypt",
-        "homeLogo": "https://media.api-sports.io/football/teams/saudi.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/egypt.png",
-        "score": "0 - 4",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/SAUvsEGY.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20025,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Greece",
-        "awayTeam": "Paraguay",
-        "homeLogo": "https://media.api-sports.io/football/teams/greece.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/paraguay.png",
-        "score": "0 - 1",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/GREvsPAR.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20026,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Algeria",
-        "awayTeam": "Guatemala",
-        "homeLogo": "https://media.api-sports.io/football/teams/algeria.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/guatemala.png",
-        "score": "7 - 0",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/ALGvsGUA.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20027,
-        "league": "INTERNATIONAL",
-        "homeTeam": "England",
-        "awayTeam": "Uruguay",
-        "homeLogo": "https://media.api-sports.io/football/teams/england.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/uruguay.png",
-        "score": "1 - 1",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/ENGvsURU.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20028,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Netherlands",
-        "awayTeam": "Norway",
-        "homeLogo": "https://media.api-sports.io/football/teams/netherlands.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/norway.png",
-        "score": "2 - 1",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/NEDvsNOR.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20029,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Switzerland",
-        "awayTeam": "Germany",
-        "homeLogo": "https://media.api-sports.io/football/teams/switzerland.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/germany.png",
-        "score": "3 - 4",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/SUIvsGER.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20030,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Spain",
-        "awayTeam": "Serbia",
-        "homeLogo": "https://media.api-sports.io/football/teams/spain.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/serbia.png",
-        "score": "3 - 0",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/SPAvsSER.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20031,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Morocco",
-        "awayTeam": "Ecuador",
-        "homeLogo": "https://media.api-sports.io/football/teams/morocco.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/ecuador.png",
-        "score": "1 - 1",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/MORvsECU.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20032,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Argentina",
-        "awayTeam": "Mauritania",
-        "homeLogo": "https://media.api-sports.io/football/teams/argentina.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/mauritania.png",
-        "score": "2 - 1",
-        "date": "27 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/ARGvsMAU.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20033,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Zambia",
-        "awayTeam": "Malawi",
-        "homeLogo": "https://media.api-sports.io/football/teams/zambia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/malawi.png",
-        "score": "0 - 0",
-        "date": "28 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/ZAMvsMAL.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20034,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Korea Republic",
-        "awayTeam": "Ivory Coast",
-        "homeLogo": "https://media.api-sports.io/football/teams/korea.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/ivorycoast.png",
-        "score": "0 - 4",
-        "date": "28 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/KORvsIVO.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20035,
-        "league": "INTERNATIONAL",
-        "homeTeam": "San Marino",
-        "awayTeam": "Faroe Islands",
-        "homeLogo": "https://media.api-sports.io/football/teams/sanmarino.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/faroe.png",
-        "score": "1 - 2",
-        "date": "28 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/SMRvsFAR.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20036,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Senegal",
-        "awayTeam": "Peru",
-        "homeLogo": "https://media.api-sports.io/football/teams/senegal.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/peru.png",
-        "score": "2 - 0",
-        "date": "28 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/SENvsPER.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20037,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Canada",
-        "awayTeam": "Iceland",
-        "homeLogo": "https://media.api-sports.io/football/teams/canada.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/iceland.png",
-        "score": "2 - 2",
-        "date": "28 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/CANvsICE.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20038,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Hungary",
-        "awayTeam": "Slovenia",
-        "homeLogo": "https://media.api-sports.io/football/teams/hungary.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/slovenia.png",
-        "score": "1 - 0",
-        "date": "28 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/HUNvsSLO.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20039,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Scotland",
-        "awayTeam": "Japan",
-        "homeLogo": "https://media.api-sports.io/football/teams/scotland.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/japan.png",
-        "score": "0 - 1",
-        "date": "28 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/SCOvsJAP.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20040,
-        "league": "INTERNATIONAL",
-        "homeTeam": "USA",
-        "awayTeam": "Belgium",
-        "homeLogo": "https://media.api-sports.io/football/teams/usa.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/belgium.png",
-        "score": "2 - 5",
-        "date": "28 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/USAvsBEL.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20041,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Haiti",
-        "awayTeam": "Tunisia",
-        "homeLogo": "https://media.api-sports.io/football/teams/haiti.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/tunisia.png",
-        "score": "0 - 1",
-        "date": "29 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/HAIvsTUN.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20042,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Mexico",
-        "awayTeam": "Portugal",
-        "homeLogo": "https://media.api-sports.io/football/teams/mexico.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/portugal.png",
-        "score": "0 - 0",
-        "date": "29 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/MEXvsPOR.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20043,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Lithuania",
-        "awayTeam": "Georgia",
-        "homeLogo": "https://media.api-sports.io/football/teams/lithuania.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/georgia.png",
-        "score": "0 - 2",
-        "date": "29 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/LITvsGEO.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20044,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Macau",
-        "awayTeam": "Tanzania",
-        "homeLogo": "https://media.api-sports.io/football/teams/macau.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/tanzania.png",
-        "score": "0 - 6",
-        "date": "29 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/MACvsTAN.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20045,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Armenia",
-        "awayTeam": "Belarus",
-        "homeLogo": "https://media.api-sports.io/football/teams/armenia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/belarus.png",
-        "score": "1 - 2",
-        "date": "29 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/ARMvsBEL.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20046,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Aruba",
-        "awayTeam": "Liechtenstein",
-        "homeLogo": "https://media.api-sports.io/football/teams/aruba.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/liechtenstein.png",
-        "score": "4 - 1",
-        "date": "29 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/ARUvsLIE.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20047,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Colombia",
-        "awayTeam": "France",
-        "homeLogo": "https://media.api-sports.io/football/teams/colombia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/france.png",
-        "score": "1 - 3",
-        "date": "29 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/COLvsFRA.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20048,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Cape Verde",
-        "awayTeam": "Finland",
-        "homeLogo": "https://media.api-sports.io/football/teams/capeverde.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/finland.png",
-        "score": "1 - 1",
-        "date": "30 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/CAPvsFIN.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20049,
-        "league": "INTERNATIONAL",
-        "homeTeam": "New Zealand",
-        "awayTeam": "Chile",
-        "homeLogo": "https://media.api-sports.io/football/teams/newzealand.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/chile.png",
-        "score": "4 - 1",
-        "date": "30 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/NZvsCHI.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20050,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Indonesia",
-        "awayTeam": "Bulgaria",
-        "homeLogo": "https://media.api-sports.io/football/teams/indonesia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/bulgaria.png",
-        "score": "0 - 1",
-        "date": "30 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/INDvsBUL.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20051,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Grenada",
-        "awayTeam": "Kenya",
-        "homeLogo": "https://media.api-sports.io/football/teams/grenada.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/kenya.png",
-        "score": "0 - 3",
-        "date": "30 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/GREvsKEN.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20052,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Uzbekistan",
-        "awayTeam": "Venezuela",
-        "homeLogo": "https://media.api-sports.io/football/teams/uzbekistan.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/venezuela.png",
-        "score": "0 - 0 (5-4 pens)",
-        "date": "30 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/UZBvsVEN.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20053,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Azerbaijan",
-        "awayTeam": "Sierra Leone",
-        "homeLogo": "https://media.api-sports.io/football/teams/azerbaijan.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/sierraleone.png",
-        "score": "0 - 0 (9-8 pens)",
-        "date": "30 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/AZEvsSIE.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20054,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Cyprus",
-        "awayTeam": "Moldova",
-        "homeLogo": "https://media.api-sports.io/football/teams/cyprus.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/moldova.png",
-        "score": "3 - 2",
-        "date": "30 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/CYPvsMOL.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20055,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Rwanda",
-        "awayTeam": "Estonia",
-        "homeLogo": "https://media.api-sports.io/football/teams/rwanda.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/estonia.png",
-        "score": "0 - 0",
-        "date": "30 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/RWAvsEST.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20056,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Germany",
-        "awayTeam": "Ghana",
-        "homeLogo": "https://media.api-sports.io/football/teams/germany.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/ghana.png",
-        "score": "2 - 1",
-        "date": "30 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/GERvsGHA.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20057,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Cameroon",
-        "awayTeam": "China",
-        "homeLogo": "https://media.api-sports.io/football/teams/cameroon.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/china.png",
-        "score": "2 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/CAMvsCHN.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20058,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Australia",
-        "awayTeam": "Curaçao",
-        "homeLogo": "https://media.api-sports.io/football/teams/australia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/curacao.png",
-        "score": "5 - 1",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/AUSvsCUR.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20059,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Kazakhstan",
-        "awayTeam": "Comoros",
-        "homeLogo": "https://media.api-sports.io/football/teams/kazakhstan.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/comoros.png",
-        "score": "1 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/KAZvsCOM.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20060,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Iran",
-        "awayTeam": "Costa Rica",
-        "homeLogo": "https://media.api-sports.io/football/teams/iran.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/costarica.png",
-        "score": "5 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/IRNvsCOS.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20061,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Montenegro",
-        "awayTeam": "Slovenia",
-        "homeLogo": "https://media.api-sports.io/football/teams/montenegro.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/slovenia.png",
-        "score": "2 - 3",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/MONvsSLO.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20062,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Norway",
-        "awayTeam": "Switzerland",
-        "homeLogo": "https://media.api-sports.io/football/teams/norway.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/switzerland.png",
-        "score": "0 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/NORvsSUI.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20063,
-        "league": "INTERNATIONAL",
-        "homeTeam": "San Marino",
-        "awayTeam": "Andorra",
-        "homeLogo": "https://media.api-sports.io/football/teams/sanmarino.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/andorra.png",
-        "score": "0 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/SMRvsAND.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20064,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Serbia",
-        "awayTeam": "Saudi Arabia",
-        "homeLogo": "https://media.api-sports.io/football/teams/serbia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/saudi.png",
-        "score": "2 - 1",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/SERvsSAU.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20065,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Zimbabwe",
-        "awayTeam": "Zambia",
-        "homeLogo": "https://media.api-sports.io/football/teams/zimbabwe.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/zambia.png",
-        "score": "1 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/ZIMvsZAM.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20066,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Haiti",
-        "awayTeam": "Iceland",
-        "homeLogo": "https://media.api-sports.io/football/teams/haiti.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/iceland.png",
-        "score": "1 - 1",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/HAIvsICE.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20067,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Russia",
-        "awayTeam": "Mali",
-        "homeLogo": "https://media.api-sports.io/football/teams/russia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/mali.png",
-        "score": "0 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/RUSvsMALI.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20068,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Hungary",
-        "awayTeam": "Greece",
-        "homeLogo": "https://media.api-sports.io/football/teams/hungary.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/greece.png",
-        "score": "0 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/HUNvsGRE.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20069,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Jordan",
-        "awayTeam": "Nigeria",
-        "homeLogo": "https://media.api-sports.io/football/teams/jordan.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/nigeria.png",
-        "score": "2 - 2",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/JORvsNIG.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20070,
-        "league": "INTERNATIONAL",
-        "homeTeam": "South Africa",
-        "awayTeam": "Panama",
-        "homeLogo": "https://media.api-sports.io/football/teams/safrica.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/panama.png",
-        "score": "1 - 2",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/RSAvsPAN.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20071,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Morocco",
-        "awayTeam": "Paraguay",
-        "homeLogo": "https://media.api-sports.io/football/teams/morocco.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/paraguay.png",
-        "score": "2 - 1",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/MORvsPAR.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20072,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Peru",
-        "awayTeam": "Honduras",
-        "homeLogo": "https://media.api-sports.io/football/teams/peru.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/honduras.png",
-        "score": "2 - 2",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/PERvsHON.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20073,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Algeria",
-        "awayTeam": "Uruguay",
-        "homeLogo": "https://media.api-sports.io/football/teams/algeria.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/uruguay.png",
-        "score": "0 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/ALGvsURU.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20074,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Ivory Coast",
-        "awayTeam": "Scotland",
-        "homeLogo": "https://media.api-sports.io/football/teams/ivorycoast.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/scotland.png",
-        "score": "1 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/IVOvsSCO.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20075,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Austria",
-        "awayTeam": "Korea Republic",
-        "homeLogo": "https://media.api-sports.io/football/teams/austria.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/korea.png",
-        "score": "1 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/AUSvsKOR.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20076,
-        "league": "INTERNATIONAL",
-        "homeTeam": "England",
-        "awayTeam": "Japan",
-        "homeLogo": "https://media.api-sports.io/football/teams/england.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/japan.png",
-        "score": "0 - 1",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/ENGvsJAP.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20077,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Netherlands",
-        "awayTeam": "Ecuador",
-        "homeLogo": "https://media.api-sports.io/football/teams/netherlands.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/ecuador.png",
-        "score": "1 - 1",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/NEDvsECU.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20078,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Republic of Ireland",
-        "awayTeam": "North Macedonia",
-        "homeLogo": "https://media.api-sports.io/football/teams/ireland.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/macedonia.png",
-        "score": "0 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/IREvsMAC.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20079,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Slovakia",
-        "awayTeam": "Romania",
-        "homeLogo": "https://media.api-sports.io/football/teams/slovakia.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/romania.png",
-        "score": "2 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/SLOvsROM.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20080,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Ukraine",
-        "awayTeam": "Albania",
-        "homeLogo": "https://media.api-sports.io/football/teams/ukraine.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/albania.png",
-        "score": "1 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/UKRvsALB.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20081,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Wales",
-        "awayTeam": "Northern Ireland",
-        "homeLogo": "https://media.api-sports.io/football/teams/wales.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/nireland.png",
-        "score": "1 - 1",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/WALvsNIR.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20082,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Senegal",
-        "awayTeam": "Gambia",
-        "homeLogo": "https://media.api-sports.io/football/teams/senegal.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/gambia.png",
-        "score": "3 - 1",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/SENvsGAM.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
-    },
-    {
-        "id": 20083,
-        "league": "INTERNATIONAL",
-        "homeTeam": "Spain",
-        "awayTeam": "Egypt",
-        "homeLogo": "https://media.api-sports.io/football/teams/spain.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/egypt.png",
-        "score": "0 - 0",
-        "date": "31 March 2026 (Friendly)",
-        "duration": "FT",
-        "matchday": "Friendly",
-        "leg": "Friendly",
-        "thumbnail": "images/SPAvsEGY.png",
-        "stats": {
-            "possession": [0, 0],
-            "shots": [0, 0],
-            "shotsOnTarget": [0, 0],
-            "corners": [0, 0],
-            "fouls": [0, 0]
-        }
+        "stats": { "possession": [0, 0], "shots": [0, 0], "shotsOnTarget": [0, 0], "corners": [0, 0], "fouls": [0, 0] }
     }
 ]
